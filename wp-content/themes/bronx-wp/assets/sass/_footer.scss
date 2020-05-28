@@ -1,0 +1,196 @@
+/* footer */
+.footer {
+	background: transparent;
+	padding: 60px 0;
+	width: 100%;
+	font-size: 16px;
+
+	.widget {
+		color: inherit;
+		p {
+			color: inherit;
+			font-size: inherit;
+		}
+	}
+
+
+
+	&.light {
+		& + .subfooter {
+			border-top: 1px solid #eee;
+		}
+	}
+	&.dark {
+		background: $color1;
+		color: rgba(#fff, 0.9);
+
+		a {
+			color: #fff;
+
+			&:hover {
+				color: $color3;
+			}
+		}
+		.widget {
+			h6 {
+				color: #fff;
+			}
+		}
+
+
+	}
+}
+
+/* Subfooter */
+.subfooter {
+	background: transparent;
+	padding: 40px 0;
+	width: 100%;
+	.footer-menu {
+		display: block;
+		list-style: none;
+		padding: 0;
+		margin: 0 0 15px;
+
+		li {
+			display: inline-block;
+			margin: 0 12px;
+
+			a {
+				font-size: 12px;
+				font-weight: 600;
+				color: $color1;
+				text-transform: uppercase;
+			}
+		}
+	}
+	p {
+		font-size: 12px;
+		font-weight: 400;
+		color: $color1;
+		margin: 0 0 10px;
+	}
+	.social-links {
+
+		a {
+			color: $color1;
+			margin: 0 7px;
+			font-size: 12px;
+			opacity: 0.7;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+		.paymenttypes {
+			display: inline-block;
+			margin: 0;
+			width: 50px;
+			height: 20px;
+			vertical-align: middle;
+			background: transparent url('../img/payment-types.png') top left;
+			background-size: 50px 300px;
+			@include filter(grayscale(100%));
+			@include translateZ(0);
+			&.visa {
+				background-position: 0 -4px;
+			}
+			&.mc {
+				background-position: 0 -34px;
+			}
+			&.paypal {
+				background-position: 0 -64px;
+			}
+			&.discover {
+				background-position: 0 -94px;
+			}
+			&.stripe {
+				background-position: 0 -124px;
+			}
+			&.amazon {
+				background-position: 0 -154px;
+			}
+			&.amex {
+				background-position: 0 -184px;
+			}
+			&.diners {
+				background-position: 0 -214px;
+			}
+			&.wallet {
+				background-position: 0 -244px;
+			}
+			&.applepay {
+				background-position: 0 -274px;
+			}
+		}
+	}
+}
+.thb_subscribe {
+	background: #f9f9f9;
+	padding: 30px 0;
+	clear: both;
+	p {
+		display: block;
+		line-height: 44px;
+		font-weight: 600;
+		font-size: 16px;
+		margin: 0;
+		color: $color1;
+		@include min-break($break-medium) {
+			display: inline-block;
+			margin: 0 20px 0 0;
+
+			.rtl & {
+				margin: 0 0 0 20px;
+			}
+		}
+	}
+}
+.newsletter-form {
+	position: relative;
+	display: inline-block;
+	max-width: 360px;
+	width: 100%;
+	.theme-popup & {
+		display: block;
+		margin: 0 auto;
+	}
+	input[type="text"] {
+		margin: 0;
+		padding-right: 50px;
+		width: 100%;
+
+		.rtl & {
+			padding-right: 18px;
+			padding-left: 50px;
+		}
+	}
+	button {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 10;
+		border: none;
+	  background: none;
+	  display: block;
+	  width: 40px;
+	  height: 44px;
+	  margin: 0;
+	  padding: 0;
+	  color: #ccc;
+	  font-size: 16px;
+	  outline: 0;
+	  cursor: pointer;
+	  &:hover,
+	  &:focus {
+	  	color: $color1;
+	  }
+	  .rtl & {
+	  	right: auto;
+	  	left: 0;
+	  }
+	}
+	& + .result .notification-box {
+		margin: 15px 0 0;
+	}
+}

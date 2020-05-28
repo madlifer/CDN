@@ -1,0 +1,213 @@
+/* Side Cart */
+#side-cart {
+	position: fixed;
+	top: 0;
+	height: 100%;
+	z-index: 99;
+	padding: 0;
+	width: 280px;
+	background: #fff;
+	overflow: hidden;
+	right: 0;
+	@include translate3d(280px, 0, 0);
+
+	.touch & {
+		overflow-x: hidden !important;
+		overflow-y: scroll !important;
+		-ms-overflow-style: -ms-autohiding-scrollbar !important;
+		-webkit-overflow-scrolling: touch !important;	
+	}
+	@include transition(all .35s $transition);
+	
+	@include min-break($break-small) {
+		width: 380px;
+		right:0;
+		@include translate3d(380px, 0, 0);
+	}
+	.admin-bar & {
+		padding-top: 46px;
+		
+		@media screen and (min-width: 783px){
+		  padding-top: 32px;
+		}
+	}
+	.open-cart & {
+		right: 0;
+		@include translate3d(0, 0, 0);
+	}
+	.table {
+		height: calc(100% - 80px);
+		width: 100%;
+	}
+	.cart-container {
+		background: #f9f9f9;
+		height: 100%;
+		float: right;
+		width: 100%;
+		padding-bottom: 135px;
+		position: relative;
+		color: $color1;
+		@include min-break($break-small) {
+			padding-bottom: 165px;
+		}
+		&.empty {
+			padding-bottom: 0;
+		}
+	}
+	header {
+		border-bottom: 1px solid #eee;
+		padding: 30px;
+		
+		h6 {
+			margin: 0;
+			font-size: 18px;
+			font-weight: 600;
+			color: $color1;	
+		}
+	}
+	
+	.buttons {
+		width: 100%;
+		padding: 15px;
+		height: 135px;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		background: #f9f9f9;
+		
+		@include min-break($break-small) {
+			padding: 30px;
+			height: 165px;
+		}
+		.btn {
+			margin: 0;
+		}
+		.btn + .btn {
+			margin-top: 5px;
+		}
+	}
+	.subtotal {
+		width: 100%;
+		padding: 40px 20px;
+		font-size: 13px;
+		font-weight: 600;
+		text-transform: uppercase;
+		text-align: center;
+		span:not(.woocommerce-Price-currencySymbol) {
+			display: block;
+			margin-top: 10px;
+			color: $color3;
+			font-size: 40px;
+			font-weight: 600;
+		}
+	}
+	.custom_scroll {
+		top: 86px;
+		bottom: 145px;
+		position: absolute;
+		height: auto;
+		width: 100%;
+		
+		@include min-break($break-small) {
+			bottom: 175px;
+		}
+		&.cart-empty-container {
+			height: 100%;
+			bottom: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+	ul {
+		display: block;
+		width: 100%;
+		padding: 0;
+		list-style: none;
+		margin: 0;
+		li {
+			position: relative;
+			border-bottom: 1px solid #eee;
+			padding: 15px;
+			
+			@include min-break($break-small) {
+				padding: 30px;
+			}
+			figure {
+				float: left;
+				width: 80px;
+				margin-right: 15px;
+				@include min-break($break-small) {
+					margin-right: 30px;
+				}
+				.rtl & {
+					float: right;
+					margin-right: 0;
+					margin-left: 15px;
+					@include min-break($break-small) {
+						margin-left: 30px;
+					}
+				}
+			}
+			.list_content {
+				padding-left: 95px;
+				padding-right: 15px;
+				font-weight: 400;
+				@include min-break($break-small) {
+					padding-left: 110px;
+				}
+				h5 {
+					font-size: 16px;
+					font-weight: 600;
+					margin: 0;
+				}
+				.cross {
+					display: inline-block;
+					vertical-align: middle;
+					padding: 0 3px;
+				}
+				.quantity {
+					padding: 0;
+				}
+				.price {
+					display: inline-block;
+					
+					& > .amount {
+						color: $color1;
+						font-size: 16px;
+					}
+				}
+				dl.variation {
+					margin-top: 5px;
+					width: 100%;
+				}
+			}
+			.remove {
+				position: absolute;
+				top: 15px;
+				right: 15px;
+				@include min-break($break-small) {
+					top: 30px;
+					right: 30px;
+				}
+				.rtl & {
+					right: auto;
+					left: 15px;	
+					
+					@include min-break($break-small) {
+						left: 30px;
+					}
+				}
+				line-height: 5px;
+				font-size: 24px;
+				width: 12px;
+				text-align: right;
+				color: rgba(0,0,0,0.6);
+				
+				&:hover {
+					color: rgba(0,0,0,1);	
+				}
+			}
+		}
+	}
+}

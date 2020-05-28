@@ -1,0 +1,216 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Wallet Coupons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-03 08:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.1"
+
+#: includes/class-woo-wallet-coupons.php:213
+msgid ""
+"WooCommerce Wallet Coupon plugin requires <a href=\"http://wordpress."
+"org/extend/plugins/woo-wallet/\">WooCommerce Wallet</a> plugins to be active!"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-admin.php:20
+#: includes/class-woo-wallet-coupons-post-type.php:78
+#: includes/class-woo-wallet-coupons-post-type.php:79
+msgid "Coupons"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-admin.php:21
+#: includes/class-woo-wallet-coupons-admin.php:28
+#: includes/class-woo-wallet-coupons-admin.php:162
+msgid "Coupon Generator"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-admin.php:34
+#: includes/class-woo-wallet-coupons-post-type.php:107
+msgid "Coupon amount"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-admin.php:42
+#: includes/class-woo-wallet-coupons-post-type.php:120
+msgid "Coupon expiry date"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-admin.php:50
+#: includes/class-woo-wallet-coupons-post-type.php:137
+msgid "Allowed emails"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-admin.php:58
+#: includes/class-woo-wallet-coupons-post-type.php:158
+msgid "Usage limit per coupon"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-admin.php:66
+#: includes/class-woo-wallet-coupons-post-type.php:176
+msgid "Usage limit per user"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-admin.php:74
+msgid "Number of coupons"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-admin.php:89
+msgid "Generate Coupons"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-admin.php:174
+msgid "Coupon License"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-admin.php:184
+msgid "API License Key"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-admin.php:185
+msgid "Enter License Key"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-admin.php:198
+msgid "Deactivate API License Key"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-admin.php:199
+msgid "Deactivates an API License Key so it can be used on another blog."
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-admin.php:232
+#, php-format
+msgid ""
+"%sClick here%s to activate WooCommerce Wallet Coupons license key to receive "
+"updates and support."
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-post-type.php:35
+#: includes/class-woo-wallet-coupons-frontend.php:45
+msgid "Coupon code"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-post-type.php:80
+msgid "All Coupon"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-post-type.php:81
+msgctxt "Admin menu name"
+msgid "Coupon"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-post-type.php:82
+msgid "Search"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-post-type.php:83
+msgid "No coupons found"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-post-type.php:84
+msgid "No coupons found in trash"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-post-type.php:85
+msgid "Add new coupon"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-post-type.php:109
+msgid "Value of the coupon."
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-post-type.php:138
+msgid "No restrictions"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-post-type.php:139
+msgid ""
+"Whitelist of customer emails to check against when a coupon applied. "
+"Separate email addresses with commas. You can also use an asterisk (*) to "
+"match parts of an email. For example \"*@gmail.com\" would match all gmail "
+"addresses."
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-post-type.php:159
+#: includes/class-woo-wallet-coupons-post-type.php:177
+msgid "Unlimited usage"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-post-type.php:160
+msgid "How many times this coupon can be used before it is void."
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-post-type.php:178
+msgid ""
+"How many times this coupon can be used by an individual user. Uses billing "
+"email for guests, and user ID for logged in users."
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-frontend.php:22
+#: includes/class-woo-wallet-coupons-frontend.php:35
+msgid "Coupon"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-frontend.php:47
+msgid "Redeem coupon"
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-frontend.php:64
+#, php-format
+msgid "Credit via coupon \"%s\""
+msgstr ""
+
+#: includes/class-woo-wallet-coupons-frontend.php:69
+msgid "Coupon applied successfully!"
+msgstr ""
+
+#: includes/class-woo-wallet-coupon.php:204
+#, php-format
+msgid "Coupon \"%s\" does not exist!"
+msgstr ""
+
+#: includes/class-woo-wallet-coupon.php:207
+#, php-format
+msgid "Coupon \"%s\" has no amount!"
+msgstr ""
+
+#: includes/class-woo-wallet-coupon.php:214
+#: includes/class-woo-wallet-coupon.php:229
+msgid "Coupon usage limit has been reached."
+msgstr ""
+
+#: includes/class-woo-wallet-coupon.php:239
+msgid "This coupon has expired."
+msgstr ""
+
+#: includes/class-woo-wallet-coupon.php:249
+msgid "This coupon not yours."
+msgstr ""
+
+#. Name of the plugin
+msgid "WooCommerce Wallet Coupons"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create coupons that can be redeemed to the user wallet."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://woowallet.in/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Subrata Mal"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/subratamal"
+msgstr ""

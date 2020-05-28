@@ -1,0 +1,123 @@
+.pagination {
+	margin: 40px 0 60px;
+	text-align: center;
+
+	.screen-reader-text {
+		display: none;
+	}
+	.page-numbers {
+		display: inline-block;
+		font-size: 14px;
+		color: #8f8f8f;
+		padding: 0 8px;
+		&:hover {
+			color: $color1;
+		}
+		&.current {
+			color: $color1;
+			text-decoration: underline;
+		}
+		&.prev,
+		&.next {
+			vertical-align: middle;
+			font-size: 20px;
+			color: rgba($color1, 0.2);
+
+			&:hover {
+				color: $color1;
+			}
+		}
+		&.next {
+			margin-left: 10px;
+
+			@include min-break($break-small) {
+				margin-left: 20px;
+			}
+			@include min-break($break-medium) {
+				margin-left: 40px;
+			}
+			@include min-break($break-large) {
+				margin-left: 60px;
+			}
+		}
+		&.prev {
+			margin-right: 10px;
+
+			@include min-break($break-small) {
+				margin-right: 20px;
+			}
+			@include min-break($break-medium) {
+				margin-right: 40px;
+			}
+			@include min-break($break-large) {
+				margin-right: 60px;
+			}
+		}
+	}
+}
+.woocommerce-pagination {
+	width: 100%;
+	margin: 40px 0 60px;
+	text-align: center;
+
+	.screen-reader-text {
+		display: none;
+	}
+	ul {
+		display: block;
+		margin: 0;
+		padding: 0;
+		li {
+			display: inline-block;
+		}
+	}
+	.page-numbers {
+		display: inline-block;
+		font-size: 14px;
+		color: #8f8f8f;
+		padding: 0 8px;
+		&:hover {
+			color: $color1;
+		}
+		&.current {
+			color: $color1;
+			text-decoration: underline;
+		}
+		&.prev,
+		&.next {
+			vertical-align: middle;
+			font-size: 20px;
+			color: rgba($color1, 0.2);
+
+			&:hover {
+				color: $color1;
+			}
+		}
+		&.next {
+			margin-left: 10px;
+
+			@include min-break($break-small) {
+				margin-left: 20px;
+			}
+			@include min-break($break-medium) {
+				margin-left: 40px;
+			}
+			@include min-break($break-large) {
+				margin-left: 60px;
+			}
+		}
+		&.prev {
+			margin-right: 10px;
+
+			@include min-break($break-small) {
+				margin-right: 20px;
+			}
+			@include min-break($break-medium) {
+				margin-right: 40px;
+			}
+			@include min-break($break-large) {
+				margin-right: 60px;
+			}
+		}
+	}
+}

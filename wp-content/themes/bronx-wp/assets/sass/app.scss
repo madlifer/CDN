@@ -1,0 +1,213 @@
+@import "compass/css3";
+@import 'compass/css3/filter';
+@import "compass/css3/user-interface";
+
+@import "_animations";
+
+$break-small: 40.063em;
+$break-medium: 64.063em;
+$break-large: 80em;
+$break-xlarge: 100em;
+
+$color1: #131219; // black
+$black: #131219;
+$color2: #7a7a7a; // light-grey
+$border: #e9e9e9;
+$color3: #59c379; // green
+$accent: #59c379;
+
+$transition: cubic-bezier(0.25,.46,.45,.94);
+
+$social: (
+	facebook: #3b5998,
+	linkedin: #007bb6,
+	pinterest: #cb2027,
+	twitter: #00aced,
+	instagram: #3f729b,
+	vk: #45668e,
+	tumblr: #35465c,
+	xing: #cfdc00,
+	soundcloud: #f80,
+	dribbble: #ea4c89,
+	youtube: #e52d27,
+	spotify: #7ab800,
+	behance: #1769ff,
+	deviantart: #4e6252
+);
+
+@mixin input-placeholder {
+	&.placeholder { @content; }
+	&:-moz-placeholder { @content; }
+	&::-moz-placeholder { @content; }
+	&:-ms-input-placeholder { @content; }
+	&::-webkit-input-placeholder { @content; }
+}
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. General
+2. Re-usable Styles
+3. Body
+4. Typography
+5. Sub-Header & Header
+6. Footer
+7. Post Syling
+8. Sidebar & Widgets
+9. Pagination
+10. Carousel
+13. Snap To Scroll
+15. Form Styling
+16. Revolution Slider
+17. Contact Page
+18. 404 Page
+19. WP-Specific
+20. Mobile Menu
+21. Side Cart
+22. Comments
+23. Shop
+24. Shortcodes
+25. Animations
+26. Style Switcher
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+Foundation
+*/
+@import 'settings';
+@import 'foundation';
+@include foundation-global-styles;
+@include foundation-typography;
+@include foundation-flex-grid;
+@include foundation-responsive-embed;
+@include foundation-media-object;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+@include foundation-flex-classes;
+
+/*------------------------------------------------------------------
+Re-usable Styles
+*/
+@import "utilities.scss";
+
+/*------------------------------------------------------------------
+Body
+*/
+@import "structure.scss";
+
+/*------------------------------------------------------------------
+Typography
+*/
+@import "typography.scss";
+
+/*------------------------------------------------------------------
+Subheader
+*/
+@import "subheader.scss";
+
+/*------------------------------------------------------------------
+Header
+*/
+@import "header.scss";
+
+/*------------------------------------------------------------------
+Footer
+*/
+@import "footer.scss";
+
+/*------------------------------------------------------------------
+Post Syling
+*/
+@import "blog.scss";
+
+/*------------------------------------------------------------------
+Overlay
+*/
+.table {
+	display: table;
+	height: 100%;
+
+	&>div {
+		display:table-cell;
+		vertical-align: middle;
+	}
+}
+/*------------------------------------------------------------------
+Sidebar & Widgets
+*/
+@import "sidebar.scss";
+
+/*------------------------------------------------------------------
+Pagination
+*/
+@import "pagination.scss";
+
+/*------------------------------------------------------------------
+Carousel
+*/
+@import "carousel.scss";
+
+/*------------------------------------------------------------------
+Snap To Scroll
+*/
+@import "snapscroll.scss";
+
+/*------------------------------------------------------------------
+Form Styling
+*/
+@import "forms.scss";
+
+/*------------------------------------------------------------------
+404 Page
+*/
+@import "404.scss";
+
+/*------------------------------------------------------------------
+WP-Specific
+*/
+@import "wpspecific.scss";
+
+/*------------------------------------------------------------------
+Mobile Menu
+*/
+@import "mobilemenu.scss";
+
+
+/*------------------------------------------------------------------
+Comments
+*/
+@import "comments.scss";
+
+/*------------------------------------------------------------------
+Shop
+*/
+@import "woocommerce/woocommerce-general.scss";
+@import "woocommerce/woocommerce-cart.scss";
+@import "woocommerce/woocommerce-checkout.scss";
+@import "woocommerce/woocommerce-order.scss";
+@import "woocommerce/woocommerce-singleproduct.scss";
+@import "woocommerce/woocommerce-myaccount.scss";
+@import "woocommerce/woocommerce-sidecart.scss";
+
+/*------------------------------------------------------------------
+Shortcodes
+*/
+@import "shortcodes.scss";
+@import "shortcodes/instagram.scss";
+
+/*------------------------------------------------------------------
+Product Filter
+*/
+@import "plugins.scss";
+
+/*------------------------------------------------------------------
+Animations
+*/
+@import "customanimation.scss";
+
+/*------------------------------------------------------------------
+Popups
+*/
+@import "mfp.scss";
+@import "fresco.scss";

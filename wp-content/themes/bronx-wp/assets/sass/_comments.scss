@@ -1,0 +1,261 @@
+#comments {
+	max-width: 970px;
+	margin: 0 auto;
+	h2 {
+		text-align: center;
+		span {
+			color: $color3;
+		}
+	}
+	.comment-notes {
+		margin-bottom: 20px;
+	}
+
+	ol.commentlist {
+		list-style: none;
+		margin: 0 0 40px;
+		display: block;
+
+		.comment,
+		.review {
+			&:before {
+				display: none;
+			}
+			.comment_container {
+				position: relative;
+			}
+			.comment-body,
+			.comment-text {
+				position: relative;
+				min-height: 105px;
+				padding-left: 105px;
+				padding-bottom: 10px;
+				margin-bottom: 35px;
+			}
+			.comment-meta {
+				line-height: 1;
+				position: absolute;
+				bottom: 5px;
+				right: 0;
+				font-size: 9px;
+				color: #767676;
+				text-transform: uppercase;
+				font-weight: 400;
+
+				a {
+					color: #767676;
+				}
+			}
+			.star-rating {
+				float: right;
+				margin-top: 10px;
+			}
+
+			.vcard {
+				border: 0;
+				padding: 0;
+				margin: 10px 0;
+				.fn {
+					font-size: 20px;
+					font-weight: 600;
+					color: $color1;
+				}
+				.says {
+					text-transform: uppercase;
+					font-size: 12px;
+					font-weight: 400;
+					color: #767676;
+				}
+
+			}
+			p.meta {
+				display: inline-block;
+				border: 0;
+				padding: 0;
+				margin: 10px 0;
+				strong {
+					font-size: 20px;
+					font-weight: 600;
+					color: $color1;
+				}
+				time {
+					text-transform: uppercase;
+					font-size: 12px;
+					font-weight: 400;
+					color: #767676;
+				}
+
+			}
+			.avatar {
+				width: 80px;
+				height: 80px;
+				float: left;
+				position: absolute;
+				top: 0;
+				left: 0;
+				padding: 10px;
+				background: #fbe73a;
+				border-radius: 40px;
+			}
+			p {
+				font-size: 16px;
+				word-break: break-word;
+			}
+			.reply {
+				position: absolute;
+				bottom: 0;
+				left: 105px;
+				font-size: 11px;
+				text-transform: uppercase;
+				font-weight: 600;
+				color: $color3;
+				a {
+					color: $color3;
+				}
+				&:before {
+					content: "\f064";
+					font-family: FontAwesome;
+					margin-right: 5px;
+				}
+			}
+			&:last-child {
+				.comment-body {
+					border: 0;
+					margin: 0;
+				}
+			}
+			.children {
+				list-style: none;
+				margin-left: 10px;
+				margin-bottom: 22px;
+				@include min-break($break-small) {
+					margin-left: 105px;
+				}
+				.avatar {
+					background: #d5d5d5;
+				}
+			}
+			.comment-respond {
+				margin-top: 40px;
+			}
+		}
+	}
+}
+.comment-respond {
+	position: relative;
+	padding-left: 105px;
+
+	p {
+		font-size: 14px;
+	}
+
+	.comment-reply-title {
+		font-size: 30px;
+		margin: 20px 0;
+		display: inline-block;
+		width: 100%;
+
+		small a{
+			color: $color3;
+			text-transform: uppercase;
+			font-weight: 400;
+			font-size: 14px;
+		}
+	}
+	input[type="text"],
+	textarea {
+		width: 100%;
+	}
+	.row {
+		min-width: 100%;
+	}
+	.form-submit {
+		text-align: right;
+
+		.submit {
+			width: 100%;
+
+			@include min-break($break-small) {
+				width: auto;
+			}
+		}
+	}
+}
+
+/* Rating */
+.star-rating {
+	display: inline-block;
+	position: relative;
+	font-size: 12px;
+	letter-spacing: 0.2em;
+	font-family: FontAwesome;
+	color: #dcdcdc;
+	&:before {
+		font-family: FontAwesome;
+		content: "\f005 \f005 \f005 \f005 \f005";
+	}
+	&>span {
+		display: block;
+		top: 0;
+		left: 0;
+		position: absolute;
+		height: 18px;
+		line-height: 18px;
+		overflow: hidden;
+		&:before {
+			color: #ffc200;
+			content: "\f005 \f005 \f005 \f005 \f005";
+		}
+		strong {
+			display: none;
+		}
+	}
+
+}
+.comment-form-rating {
+	.stars {
+		display: block;
+		@extend .star-rating;
+
+		&:before {
+			opacity: 0;
+		}
+		&>span {
+			&:before {
+				content: none;
+			}
+
+		}
+		a {
+			position: relative;
+			color: #dcdcdc;
+			display: inline-block;
+			text-indent: -999em;
+			width: 15px;
+			&:before {
+				position: absolute;
+				display: block;
+				width: 15px;
+				text-indent: 0;
+				content: "\f005"
+			}
+			&:hover {
+				& ~ a {
+					color: #dcdcdc;
+				}
+			}
+			&.active ~ a {
+				color: #dcdcdc;
+			}
+		}
+		&:hover a,
+		&.selected a {
+			color: #ffc200;
+		}
+	}
+}
+#reviews {
+  #comments {
+    max-width: none;
+  }
+}

@@ -1,0 +1,15 @@
+*** Changelog ***
+= 1.0.3 - 2020-01-03 =
+* Add - Hooks.
+* Updated - Translation file.
+= 1.0.2 - 2019-11-22 =
+* Add - Bulk coupon generation function.
+
+= 1.0.1 - 2019-05-09 = 
+* Add - Recorded a transaction meta.
+* Fix - endpoints for shortcode.
+* Fix - License issue.
+* Fix - Text domain
+
+= 1.0.0 -2019-03-01 =
+* Initial commit for plugin release.

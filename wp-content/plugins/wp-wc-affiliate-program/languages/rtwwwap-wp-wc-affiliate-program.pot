@@ -1,0 +1,2808 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress & WooCommerce Affiliate Program 1.0.1\n"
+"POT-Creation-Date: 2020-02-18 18:15+0530\n"
+"PO-Revision-Date: 2019-04-20 16:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: RedefiningTheWeb <developer@redefiningtheweb.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html_e;esc_html__;esc_attr__;esc_attr_e;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/partials/rtwwwap-wp-wc-affiliate-program-admin-display.php:83
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:335
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:813
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:878
+msgid "WordPress & WooCommerce Affiliate Program"
+msgstr ""
+
+#: admin/partials/rtwwwap-wp-wc-affiliate-program-admin-display.php:83
+msgid "Remove Purchase Code"
+msgstr ""
+
+#: admin/partials/rtwwwap-wp-wc-affiliate-program-admin-display.php:87
+msgid "Dashboard Overview"
+msgstr ""
+
+#: admin/partials/rtwwwap-wp-wc-affiliate-program-admin-display.php:91
+msgid "Affiliates"
+msgstr ""
+
+#: admin/partials/rtwwwap-wp-wc-affiliate-program-admin-display.php:95
+msgid "Commission Setting"
+msgstr ""
+
+#: admin/partials/rtwwwap-wp-wc-affiliate-program-admin-display.php:99
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:28
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission_no_woo.php:19
+msgid "Levels"
+msgstr ""
+
+#: admin/partials/rtwwwap-wp-wc-affiliate-program-admin-display.php:105
+#: admin/partials/rtwwwap_tabs/rtwwwap_dashboard.php:149
+#: public/templates/rtwwwap_affiliate_body.php:76
+msgid "Referrals"
+msgstr ""
+
+#: admin/partials/rtwwwap-wp-wc-affiliate-program-admin-display.php:116
+msgid "Payouts"
+msgstr ""
+
+#: admin/partials/rtwwwap-wp-wc-affiliate-program-admin-display.php:120
+msgid "Extra Features"
+msgstr ""
+
+#: admin/partials/rtwwwap-wp-wc-affiliate-program-admin-display.php:124
+#: public/templates/rtwwwap_affiliate.php:196
+msgid "MLM"
+msgstr ""
+
+#: admin/partials/rtwwwap-wp-wc-affiliate-program-admin-display.php:128
+msgid "Add-ons"
+msgstr ""
+
+#: admin/partials/rtwwwap-wp-wc-affiliate-program-admin-display.php:191
+msgid "Save changes"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:8
+msgid "Choose Register Template"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:15
+msgid "Template 1"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:18
+msgid "Template 2"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:21
+msgid "Template 3"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:24
+msgid "Template 4"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:28
+msgid ""
+"Use the following shortcode on the page where you want to show the Register "
+"Form"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:28
+msgid ""
+"Note: You need to activate Register setting from WordPress Settings->General-"
+">Membership"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:33
+msgid "Form Title"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:36
+msgid "Enter Form Title"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:41
+msgid "Custom Form Fields"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:58
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:109
+msgid "Label"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:62
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:113
+msgid "Input Type"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:64
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:115
+msgid "Select Input Type"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:65
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:116
+msgid "Text"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:66
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:117
+msgid "Number"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:67
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:118
+msgid "CheckBox"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:68
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:119
+msgid "Radio"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:69
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:120
+msgid "TextArea"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:70
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:121
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:235
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:279
+msgid "Select"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:75
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:126
+msgid "Class"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:80
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:131
+msgid "Id"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:85
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:136
+msgid "Placeholder"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:90
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:141
+msgid "Required"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:92
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:143
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:173
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:277
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:302
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:333
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:358
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:389
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission_no_woo.php:63
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission_no_woo.php:88
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:142
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:227
+msgid "No"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:93
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:144
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:167
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:271
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:296
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:319
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:352
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:375
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission_no_woo.php:57
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission_no_woo.php:82
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:136
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:221
+msgid "Yes"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:99
+msgid "Options"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:152
+msgid "Add More"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:160
+msgid "Use default colors for template"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:177
+msgid "Activate to show Default template colors given with our plugin"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:182
+msgid "Main Background Color"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:191
+msgid "Form Background Color"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:200
+msgid "Form Header Color"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:209
+msgid "Button Color"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:218
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:280
+msgid "Custom css"
+msgstr ""
+
+#: admin/partials/rtwwwap_addons/rtwwwap_register_template.php:222
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:284
+msgid "Write custom css for frontend"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap-wp-wc-affiliate-program-admin.php:7
+msgid "Enter Purchase Code : "
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap-wp-wc-affiliate-program-admin.php:11
+msgid "Where is my purchase code?"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap-wp-wc-affiliate-program-admin.php:13
+msgid "Submit"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_addons.php:9
+msgid "Register/Login Templates"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_addons.php:13
+msgid "Login Shortcode"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_addons.php:16
+msgid "Register Shrotcode"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_addons.php:50
+#: admin/partials/rtwwwap_tabs/rtwwwap_addons.php:56
+msgid "Social Media Share"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_affiliates.php:22
+msgid "Add New Affiliate"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_affiliates.php:28
+msgid "Approve all marked Affiliates"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_affiliates.php:43
+#: admin/partials/rtwwwap_tabs/rtwwwap_affiliates.php:126
+msgid "ID"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_affiliates.php:44
+#: admin/partials/rtwwwap_tabs/rtwwwap_affiliates.php:127
+#: public/templates/rtwwwap_aff_reg_page.php:96
+#: public/templates/rtwwwap_aff_reg_page.php:162
+#: public/templates/rtwwwap_aff_reg_page.php:223
+#: public/templates/rtwwwap_aff_reg_page.php:224
+#: public/templates/rtwwwap_aff_reg_page.php:294
+#: public/templates/rtwwwap_aff_reg_page.php:295
+#: public/templates/rtwwwap_affiliate_body.php:956
+#: public/templates/rtwwwap_affiliate_body.php:957
+msgid "Username"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_affiliates.php:45
+#: admin/partials/rtwwwap_tabs/rtwwwap_affiliates.php:128
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:44
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:120
+msgid "Name"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_affiliates.php:47
+#: admin/partials/rtwwwap_tabs/rtwwwap_affiliates.php:130
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:43
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:119
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:17
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:114
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:119
+#: public/templates/rtwwwap_affiliate_body.php:1024
+msgid "Level"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_affiliates.php:49
+#: admin/partials/rtwwwap_tabs/rtwwwap_affiliates.php:132
+#: public/templates/rtwwwap_affiliate_body.php:959
+#: public/templates/rtwwwap_affiliate_body.php:960
+msgid "Email"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_affiliates.php:50
+#: admin/partials/rtwwwap_tabs/rtwwwap_affiliates.php:133
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:47
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:123
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:37
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:218
+msgid "Actions"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:11
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission_no_woo.php:10
+msgid "Commission Based on"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:21
+msgid "Products"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:28
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission_no_woo.php:19
+msgid "Users"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:28
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission_no_woo.php:19
+msgid "To set commission for users goto"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:37
+msgid "Commission for All Products"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:43
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:122
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2249
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2323
+#: public/templates/rtwwwap_affiliate_body.php:1028
+msgid "Commission Type"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:46
+msgid "Commission amount"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:57
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:78
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:106
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:46
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:139
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:96
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:137
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:165
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:192
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2254
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2326
+#: public/templates/rtwwwap_affiliate_body.php:1045
+msgid "Percentage"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:60
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:49
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:142
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:99
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:140
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:168
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:195
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2253
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2325
+#: public/templates/rtwwwap_affiliate_body.php:1049
+msgid "Fixed"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:66
+msgid "Enter Commission (By default 0)"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:74
+msgid "Commission per Product"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:84
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:109
+msgid "Fixed Price"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:90
+msgid "Percentage + Fixed Price"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:94
+msgid "You need to add commission from product page"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:98
+msgid "Commission per Category"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:103
+msgid "Categories"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:112
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:447
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:523
+msgid "Add/Remove row"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:146
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:217
+#: public/templates/rtwwwap_affiliate_body.php:725
+#: public/templates/rtwwwap_affiliate_body.php:773
+msgid "No Category"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:241
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission_no_woo.php:27
+msgid "Maximum commission to an Affiliate in a month"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:246
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission_no_woo.php:32
+msgid "Enter Max. Commission (By default 0, that means unlimited commission)"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:252
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission_no_woo.php:38
+msgid "Withdrawal Fees"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:257
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission_no_woo.php:43
+msgid "Enter Fees to be deducted while payouts (By default 0)"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:263
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission_no_woo.php:49
+msgid "Unlimited / Lifetime Commission"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:282
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission_no_woo.php:68
+msgid ""
+"When Unlimited commission is set then commission will be generated every "
+"time a referee made a purchase. No matter if a cookie is set or not."
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:288
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission_no_woo.php:74
+msgid "Override Referrer in Unlimited Commission"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:307
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission_no_woo.php:93
+msgid ""
+"When not selected then first referrer will get commission every time a "
+"purchase is done by referee. No matter who's referral link is being opened."
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:313
+msgid "Commission for only the URL opened?"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:338
+msgid ""
+"It will only work with Referral Links and when Unlimited/Lifetime is not "
+"set. That means if you are using Referral Code than this functionality will "
+"not work."
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:344
+msgid "Enable Two Way Commission"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:363
+msgid ""
+"After Enabling this, you can give commission to users which is referred by "
+"affiliate. Commission for user can set from product edit page. Only Product "
+"Wise Commission is Availiable. "
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:369
+msgid "Activate Generation of Coupons"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:394
+msgid ""
+"After Activating this , you can generate Coupons of amount that you have in "
+"your wallet .This option is currently available for WooCommerce only "
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:400
+msgid "Minimum amount for Coupon generation"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_commission.php:406
+msgid "Enter Amount"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_dashboard.php:32
+msgid "Total Affiliates"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_dashboard.php:37
+msgid "Total no. of affiliates registered"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_dashboard.php:45
+#: public/templates/rtwwwap_affiliate_body.php:33
+msgid "Total Referrals"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_dashboard.php:50
+msgid "Total no. of Referrals done"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_dashboard.php:57
+#: public/templates/rtwwwap_affiliate_body.php:36
+msgid "Total Commission"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_dashboard.php:62
+msgid "Total Commission generated from Referrals"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_dashboard.php:69
+#: public/templates/rtwwwap_affiliate_body.php:42
+msgid "Approved Commission"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_dashboard.php:74
+msgid "Total Commission that needs to be paid"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_dashboard.php:81
+#: public/templates/rtwwwap_affiliate_body.php:45
+msgid "Pending Commission"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_dashboard.php:86
+msgid "Total Commission that needs to be reviewed"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_dashboard.php:97
+msgid "Last 5 Referrals"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_dashboard.php:119
+msgid "for"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_dashboard.php:119
+msgid "on"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_dashboard.php:132
+msgid "Top 5 affiliates"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_dashboard.php:149
+msgid "Total Amount"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:17
+msgid "General"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:18
+msgid "Labels"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:19
+msgid "Bonus"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:20
+msgid "Payment"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:29
+msgid "Select Affiliate Page"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:41
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:75
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:106
+msgid "Select a Page"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:58
+msgid "Use the following shortcode on the selected page"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:63
+msgid "Affiliate Login page"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:89
+msgid "Select page if your are using Login shortcode seprately"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:94
+msgid "Affiliate Signup page "
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:120
+msgid "Select page if your are using Register shortcode seprately"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:129
+msgid "Show under My Account"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:146
+msgid "Activate to show under WooCommerce->My Account"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:155
+msgid "Select Currency"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:173
+msgid "By Default USD will be used"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:182
+msgid "Upto Decimal Places"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:185
+msgid "Enter Upto decimal places"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:188
+msgid ""
+"This decimal places will used for calculating commission and showing numbers"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:192
+msgid "Affiliate Verification"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:196
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:223
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:257
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:19
+msgid "On"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:211
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:238
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:272
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:25
+msgid "Off"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:215
+msgid ""
+"Activate this feature if you want to check whether this user can be "
+"affiliate or not"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:219
+msgid "Mail to Admin"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:242
+msgid ""
+"Activate this feature if you want to get mails when a commission is generated"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:246
+msgid "Cookie Expiration"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:249
+msgid ""
+"Enter Days after which referral cookie will expire ( Note: 0 days means "
+"cookie will expire when the browser will be closed )"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:253
+msgid "QR code for referral links"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:295
+msgid "Title for button \"Become an Affiliate\""
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:298
+msgid "Enter Become an Affiliate button Title"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:303
+msgid "Title for Section \"Benefits for being an Affiliate\""
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:306
+msgid "Enter Benefits Section Title"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:311
+msgid "Benefits for being an Affiliate"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:315
+#: public/templates/rtwwwap_affiliate.php:78
+msgid ""
+"Earn extra money just by marketing our products with our affiliate tools"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:315
+#: public/templates/rtwwwap_affiliate.php:78
+msgid "Earn wallet amount to buy products on our site"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:315
+#: public/templates/rtwwwap_affiliate.php:78
+msgid "Signup Bonus when someone signup from your shared link"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:331
+msgid ""
+"These benefits will be shown to the users, so that they will become an "
+"Affiliate"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:336
+msgid "Label for Tab \"Overview\""
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:339
+msgid "Enter Overview Label"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:340
+msgid "Enter title for Tab Overview in Affilate Dashboard Panel"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:345
+msgid "Label for Tab \"Commissions\""
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:348
+msgid "Enter Commission Label"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:349
+msgid "Enter title for Tab Commission in Affilate Dashboard Panel"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:354
+msgid "Label for Tab \"Affiliate Tools\""
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:357
+msgid "Enter Affilate Tools Label"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:358
+msgid "Enter title for Tab Affiliate Tools in Affilate Dashboard Panel"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:363
+msgid "Label for Tab \"Download\""
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:366
+msgid "Enter Download Label"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:367
+msgid "Enter title for Tab Download in Affilate Dashboard Panel"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:372
+msgid "Label for Tab \"Payout\""
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:375
+msgid "Enter Payout Label"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:376
+msgid "Enter title for Tab Payout in Affilate Dashboard Panel"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:381
+msgid "Label for Tab \"Profile\""
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:384
+msgid "Enter Profile Label"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:385
+msgid "Enter title for Tab Profile in Affilate Dashboard Panel"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:395
+msgid "Signup Bonus Type"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:399
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:4319
+#: public/templates/rtwwwap_aff_login_page.php:89
+#: public/templates/rtwwwap_aff_reg_page.php:101
+#: public/templates/rtwwwap_aff_reg_page.php:166
+#: public/templates/rtwwwap_aff_reg_page.php:228
+#: public/templates/rtwwwap_aff_reg_page.php:229
+#: public/templates/rtwwwap_aff_reg_page.php:299
+#: public/templates/rtwwwap_aff_reg_page.php:300
+msgid "Referral Code"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:414
+msgid "Cookie ( Default )"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:418
+msgid ""
+"[ Note : When \"REFFERAL CODE\" is selected as Signup Bonus Type then "
+"\"REFFERAL LINK(s)\" will not be used for Commission Generation, Signup "
+"Bonus and adding member to MLM chain ]"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:423
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:72
+#: public/templates/rtwwwap_affiliate_body.php:103
+#: public/templates/rtwwwap_affiliate_body.php:575
+msgid "Signup Bonus"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:427
+msgid "Enter Amount to be given for referral signup (By default 0)"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:435
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:511
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:79
+#: public/templates/rtwwwap_affiliate_body.php:106
+msgid "Performance Bonus"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:441
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:517
+msgid "Total Sale amount to unlock achievement"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:444
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:520
+msgid "Incentive"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:584
+msgid "Social Media Share Buttons"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:604
+#: public/templates/rtwwwap_affiliate_body.php:115
+#: public/templates/rtwwwap_affiliate_body.php:592
+msgid "Sharing Bonus"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:608
+msgid ""
+"Enter Amount to be given for Sharing a product on social media (By default 0)"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:613
+msgid "Sharing Bonus Limit"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:619
+msgid "Time Limit"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:622
+msgid "Amount Limit"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:633
+msgid "No Limit"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:636
+msgid "Daily Limit"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:639
+msgid "Weekly Limit"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:642
+msgid "Monthly Limit"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:652
+msgid ""
+"Enter Time and Amount after which Affiliate will not get the share bonus"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:661
+msgid "Activate Paypal"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:671
+msgid "Paypal Live"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:675
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:687
+msgid "Client ID"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:678
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:690
+msgid "Client Secret"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:683
+msgid "Paypal Sandbox"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:696
+msgid "Activate Stripe"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:706
+msgid "Stripe Live"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:710
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:722
+msgid "Publishable Key"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:713
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:725
+msgid "Secret Key"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_extra_features.php:718
+msgid "Stripe Sandbox"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_footer.php:4
+msgid "WordPress & WooCommerce Affiliate Program By"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_footer.php:7
+msgid "RedefiningTheWeb"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_footer.php:11
+msgid "Documentation"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_footer.php:14
+msgid "5-Stars Rating"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:24
+msgid "Please select \"Commission Based on = Users\" in Commission Setting Tab"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:30
+msgid "Add New Level"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:33
+msgid "Update Order"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:42
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:118
+msgid "Sort"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:45
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:121
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:26
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:122
+msgid "Commission"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:46
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:122
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:63
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:156
+#: public/templates/rtwwwap_affiliate_body.php:495
+msgid "To Reach"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:89
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:83
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:173
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:816
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:881
+#: public/templates/rtwwwap_affiliate_body.php:526
+msgid "Become Affiliate"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:93
+#: public/templates/rtwwwap_affiliate_body.php:530
+msgid "No. of referrals"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels.php:97
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:89
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:179
+#: public/templates/rtwwwap_affiliate_body.php:534
+msgid "Total sale amount"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:32
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:128
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:82
+#: public/templates/rtwwwap_affiliate_body.php:84
+msgid "Type"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:35
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:131
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:85
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:28
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:160
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:34
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:215
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:267
+#: public/templates/rtwwwap_affiliate_body.php:87
+#: public/templates/rtwwwap_affiliate_body.php:225
+msgid "Amount"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:69
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:162
+msgid "Criteria"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:72
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:165
+msgid "Value"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:86
+#: admin/partials/rtwwwap_tabs/rtwwwap_levels_add_edit.php:176
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:27
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:159
+msgid "No. of Referrals"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:9
+msgid "Activate MLM"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:32
+msgid "MLM Type"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:40
+#: public/templates/rtwwwap_affiliate_body.php:990
+msgid "Binary"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:43
+#: public/templates/rtwwwap_affiliate_body.php:994
+msgid "Forced Matrix"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:46
+#: public/templates/rtwwwap_affiliate_body.php:998
+msgid "Unilevel"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:51
+msgid ""
+"NOTE : If you change MLM Plan then you need to activate/deactivate members "
+"to make the chains according to your plan selected"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:55
+msgid "Depth"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:58
+msgid "How many levels does this MLM can have? ( Note: By Default 1 )"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:62
+msgid "Child"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:71
+msgid "How many childs a User can have?"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:76
+msgid "Default Commission for a Level"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:113
+#: public/templates/rtwwwap_affiliate_body.php:1016
+msgid "MLM Levels"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:125
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2263
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2333
+#: public/templates/rtwwwap_affiliate_body.php:1032
+msgid "Commission Amount"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_mlm.php:211
+msgid "User can change status of members in his chain?"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:7
+msgid "Pay marked PayPal Affiliates"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:9
+msgid "Pay marked Stripe Affiliates"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:25
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:157
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:24
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:205
+msgid "User ID"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:26
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:158
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:25
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:206
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:508
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:230
+msgid "Affiliate"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:29
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:161
+msgid "Last Referral"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:30
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:162
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:36
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:217
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:275
+#: public/templates/rtwwwap_affiliate_body.php:93
+msgid "Status"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:119
+#: public/templates/rtwwwap_affiliate_body.php:889
+msgid "Paypal"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:123
+#: public/templates/rtwwwap_affiliate_body.php:895
+msgid "Stripe"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:127
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1714
+msgid "Bank Details"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:137
+msgid "Pay"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_payouts.php:144
+msgid "No payment method defined"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:7
+msgid "Approve all marked Referrals"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:9
+msgid "Reject all marked Referrals"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:10
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:226
+msgid "Add Manual Referral"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:26
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:207
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:257
+msgid "Reference"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:30
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:211
+msgid "Order Status"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:35
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:216
+#: public/templates/rtwwwap_affiliate_body.php:90
+msgid "Date"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:82
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:261
+#: public/templates/rtwwwap_affiliate_body.php:118
+msgid "Manual Referral"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:87
+#: public/templates/rtwwwap_affiliate_body.php:112
+msgid "MLM Bonus"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:94
+msgid "Share Bonus"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:158
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:281
+msgid "Approve"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:161
+msgid "Reject"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:168
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1408
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1532
+#: public/templates/rtwwwap_affiliate_body.php:145
+msgid "Approved"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:175
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:282
+#: public/templates/rtwwwap_affiliate_body.php:149
+msgid "Paid"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:182
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1447
+#: public/templates/rtwwwap_affiliate_body.php:152
+msgid "Rejected"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:190
+#: public/templates/rtwwwap_affiliate_body.php:172
+msgid "Capped"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:231
+msgid "Select Affiliate"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:234
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:720
+msgid "Please Select Affiliate"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:260
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:726
+msgid "Please Select Reference"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:270
+msgid "Please Enter Amount"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:278
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:738
+msgid "Please Select Status"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:280
+#: public/templates/rtwwwap_affiliate_body.php:142
+msgid "Pending"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:287
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:301
+msgid "Save"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:288
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:302
+msgid "Cancel"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:294
+msgid "Enter Your Reason Here"
+msgstr ""
+
+#: admin/partials/rtwwwap_tabs/rtwwwap_referrals.php:297
+msgid "Enter your reason here within 100 words... "
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:158
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:141
+msgid "Clear"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:159
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:142
+msgid "Default"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:160
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:143
+msgid "Select Color"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:161
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:144
+msgid "Current Color"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:169
+msgid "Digits Only"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:170
+msgid "Details not filled"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:171
+msgid "Are you sure that you have completed this bank transfer?"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:172
+msgid "Nothing Marked"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:173
+msgid ""
+"Are you sure to approve this Referral? It can't be reverted back once "
+"approved"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:174
+msgid ""
+"Are you sure to approve all the Referrals? It can't be reverted back once "
+"approved"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:175
+msgid ""
+"Are you sure to reject this Referral? It can't be reverted back once rejected"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:176
+msgid "Please input some text in message box"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:177
+msgid ""
+"Are you sure to reject all the Referrals? It can't be reverted back once "
+"rejected"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:178
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:188
+msgid "Activate"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:179
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:189
+msgid "Deactivate"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:325
+msgid "Settings"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:335
+msgid "WP & WC Affiliate Program"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:515
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:830
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:896
+msgid "Affiliate Level"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:694
+msgid "This user is an affiliate now"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:697
+msgid "This user is not an affiliate now"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:732
+msgid "Please Enter Referral Amount"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:769
+msgid "Manual Referral Added Successfully"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:774
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1902
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2002
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2025
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:4237
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:4267
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:4298
+msgid "Something Went Wrong"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:797
+msgid "Affiliate level changed"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:800
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1146
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:349
+msgid "Something went wrong"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:819
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:884
+msgid "This will make this user also as an Affiliate"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:925
+msgid "MLM Chain"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:929
+#: public/templates/rtwwwap_affiliate_body.php:1072
+msgid "Show MLM chain"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:932
+msgid "Binary Plan"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:935
+msgid "Forced Matrix Plan"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:938
+msgid "Unilevel Plan"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:945
+#: public/templates/rtwwwap_affiliate_body.php:1075
+msgid "Show In-Active members also"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:950
+#: public/templates/rtwwwap_affiliate_body.php:1077
+msgid ""
+"MLM chain is not proper, activate/ deactivate the members to make the chain "
+"according to your MLM plan. Once done reload the page to see the updated MLM "
+"chain."
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1056
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1063
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1193
+msgid "Percentage Commission"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1060
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1064
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1201
+msgid "Fixed Commission"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1143
+msgid "Commission for this product is updated"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1172
+msgid "Add Commission"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1412
+msgid "Some referrals are not approved. Try again"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1451
+msgid "Some referrals are not rejected. Try again"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1535
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1826
+msgid "Something went wrong. Try again"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1567
+msgid "Paypal not setup correctly."
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1597
+msgid "You have a payment"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1631
+msgid "Something went wrong. Try again."
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1674
+msgid "Affilate Payout via PayPal"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1688
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1875
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2138
+msgid "Successfully paid"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1695
+msgid "WordPress & WooCommerce Affiliate Program Exporter"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1717
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1726
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1735
+msgid "Affiliate Program"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1723
+msgid "Paypal Details"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1732
+msgid "Stripe Details"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1749
+msgid "WordPress & WooCommerce Affiliate Program Eraser"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1802
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1822
+msgid "Deleted"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1898
+msgid "Order Successfully updated"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:1998
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:4233
+msgid "Deactivated"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2021
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:4263
+msgid "Activated"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2069
+msgid "Stripe not setup correctly."
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2119
+msgid "Affiliate Payout via Stripe"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2172
+msgid "From "
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2172
+msgid " to "
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2228
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2308
+msgid "Referee Commission Setting"
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2250
+msgid "Choose a commission type."
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2265
+msgid "Enter the commission amount."
+msgstr ""
+
+#: admin/rtwwwap-class-wp-wc-affiliate-program-admin.php:2329
+msgid "Choose a commission type"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:19
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:20
+msgid "Afghan afghani"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:21
+msgid "Albanian lek"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:22
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:23
+msgid "Angolan kwanza"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:24
+msgid "Argentine peso"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:25
+msgid "Australian dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:26
+msgid "Aruban florin"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:27
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:28
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:29
+msgid "Barbadian dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:30
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:31
+msgid "Bulgarian lev"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:32
+msgid "Bahraini dinar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:33
+msgid "Burundian franc"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:34
+msgid "Bermudian dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:35
+msgid "Brunei dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:36
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:37
+msgid "Brazilian real"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:38
+msgid "Bahamian dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:39
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:40
+msgid "Botswana pula"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:41
+msgid "Belarusian ruble (old)"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:42
+msgid "Belize dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:43
+msgid "Canadian dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:44
+msgid "Congolese franc"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:45
+msgid "Swiss franc"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:46
+msgid "Chilean peso"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:47
+msgid "Chinese yuan"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:48
+msgid "Colombian peso"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:49
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:50
+msgid "Cuban peso"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:51
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:52
+msgid "Czech koruna"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:53
+msgid "Djiboutian franc"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:54
+msgid "Danish krone"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:55
+msgid "Dominican peso"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:56
+msgid "Algerian dinar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:57
+msgid "Egyptian pound"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:58
+msgid "Ethiopian birr"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:59
+msgid "Euro"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:60
+msgid "Fijian dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:61
+msgid "Falkland Islands pound"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:62
+msgid "Pound sterling"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:63
+msgid "Georgian lari"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:64
+msgid "Ghana cedi"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:65
+msgid "Gibraltar pound"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:66
+msgid "Gambian dalasi"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:67
+msgid "Guinean franc"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:68
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:69
+msgid "Guyanese dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:70
+msgid "Hong Kong dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:71
+msgid "Honduran lempira"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:72
+msgid "Croatian kuna"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:73
+msgid "Haitian gourde"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:74
+msgid "Hungarian forint"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:75
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:76
+msgid "Israeli new shekel"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:77
+msgid "Indian rupee"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:78
+msgid "Iraqi dinar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:79
+msgid "Iranian rial"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:80
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:81
+msgid "Jersey pound"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:82
+msgid "Jamaican dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:83
+msgid "Jordanian dinar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:84
+msgid "Japanese yen"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:85
+msgid "Kenyan shilling"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:86
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:87
+msgid "Cambodian riel"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:88
+msgid "Comorian franc"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:89
+msgid "North Korean won"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:90
+msgid "South Korean won"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:91
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:92
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:93
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:94
+msgid "Lao kip"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:95
+msgid "Lebanese pound"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:96
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:97
+msgid "Liberian dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:98
+msgid "Libyan dinar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:99
+msgid "Moroccan dirham"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:100
+msgid "Moldovan leu"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:101
+msgid "Malagasy ariary"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:102
+msgid "Macedonian denar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:103
+msgid "Burmese kyat"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:104
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:105
+msgid "Macanese pataca"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:106
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:107
+msgid "Mauritian rupee"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:108
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:109
+msgid "Malawian kwacha"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:110
+msgid "Mexican peso"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:111
+msgid "Malaysian ringgit"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:112
+msgid "Mozambican metical"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:113
+msgid "Namibian dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:114
+msgid "Nigerian naira"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:115
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:116
+msgid "Norwegian krone"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:117
+msgid "Nepalese rupee"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:118
+msgid "New Zealand dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:119
+msgid "Omani rial"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:120
+msgid "Panamanian balboa"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:121
+msgid "Sol"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:122
+msgid "Papua New Guinean kina"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:123
+msgid "Philippine peso"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:124
+msgid "Pakistani rupee"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:125
+msgid "Polish z&#x142;oty"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:126
+msgid "Transnistrian ruble"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:127
+msgid "Paraguayan guaran&iacute;"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:128
+msgid "Qatari riyal"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:129
+msgid "Romanian leu"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:130
+msgid "Serbian dinar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:131
+msgid "Russian ruble"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:132
+msgid "Rwandan franc"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:133
+msgid "Saudi riyal"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:134
+msgid "Solomon Islands dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:135
+msgid "Seychellois rupee"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:136
+msgid "Sudanese pound"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:137
+msgid "Swedish krona"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:138
+msgid "Singapore dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:139
+msgid "Saint Helena pound"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:140
+msgid "Sierra Leonean leone"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:141
+msgid "Somali shilling"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:142
+msgid "Surinamese dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:143
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:144
+msgid "Syrian pound"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:145
+msgid "Swazi lilangeni"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:146
+msgid "Thai baht"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:147
+msgid "Tajikistani somoni"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:148
+msgid "Turkmenistan manat"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:149
+msgid "Tunisian dinar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:150
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:151
+msgid "Turkish lira"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:152
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:153
+msgid "New Taiwan dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:154
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:155
+msgid "Ugandan shilling"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:156
+msgid "United States (US) dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:157
+msgid "Uruguayan peso"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:158
+msgid "Uzbekistani som"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:159
+msgid "Venezuelan bol&iacute;var"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:160
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:161
+msgid "Vanuatu vatu"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:162
+msgid "Samoan t&#x101;l&#x101;"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:163
+msgid "Central African CFA franc"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:164
+msgid "East Caribbean dollar"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:165
+msgid "CFP franc"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:166
+msgid "Yemeni rial"
+msgstr ""
+
+#: includes/rtwaffiliatehelper.php:167
+msgid "South African rand"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:168
+msgid "Copy Script"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:169
+msgid "Copy Html"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:170
+msgid "Buy Now"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:171
+msgid "Preview"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:172
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3678
+msgid "List Price"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:173
+msgid "Our Price"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:174
+msgid "Text Color"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:175
+msgid "Link Color"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:176
+msgid "Background Color"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:177
+msgid "Show Price"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:178
+msgid "Border Color"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:180
+msgid "Enter valid Link"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:185
+msgid "Coupon amount must be greater than"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:186
+msgid "Coupon amount must be less than"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:187
+#: public/templates/rtwwwap_affiliate_body.php:658
+msgid "Copied"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:190
+msgid "Disabled"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:191
+msgid "Enabled"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:192
+msgid "Parent"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:193
+msgid "Are you sure to send the request?"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:194
+msgid "Please write a message"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:346
+msgid "You are now an affiliate"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:1338
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:2308
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:2902
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3424
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:4826
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:5337
+msgid "One new Referral"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:1339
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:2309
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:2903
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3425
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:4827
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:5338
+msgid "You got a new referral of amount"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:1343
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:2313
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:2907
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3429
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:4053
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:4290
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:4831
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:5342
+msgid "From"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:1350
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:2320
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:2915
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3437
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:4838
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:5349
+msgid "Generated a new referral of amount"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3567
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3585
+msgid "Link"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3568
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3586
+msgid "Banner"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3596
+msgid "No Result Found"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3671
+msgid "Labels Export"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3673
+msgid "S.no."
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3674
+#: public/templates/rtwwwap_affiliate_body.php:364
+msgid "Product Name"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3675
+msgid "URL"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3676
+msgid "Category"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3677
+msgid "Description"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:3679
+msgid "Sale Price"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:4048
+msgid "New MLM commission"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:4049
+msgid "You got a new MLM commission of amount"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:4060
+msgid "Generated a new MLM commission of amount"
+msgstr ""
+
+#: public/rtwwwap-class-wp-wc-affiliate-program-public.php:4284
+msgid "Request for commission withdraw"
+msgstr ""
+
+#: public/templates/rtwwwap_aff_login_page.php:78
+msgid "Login your Account"
+msgstr ""
+
+#: public/templates/rtwwwap_aff_login_page.php:84
+#: public/templates/rtwwwap_aff_login_page.php:160
+#: public/templates/rtwwwap_aff_login_page.php:231
+#: public/templates/rtwwwap_aff_login_page.php:232
+#: public/templates/rtwwwap_aff_login_page.php:311
+#: public/templates/rtwwwap_aff_login_page.php:312
+msgid "Username or Email Address"
+msgstr ""
+
+#: public/templates/rtwwwap_aff_login_page.php:86
+#: public/templates/rtwwwap_aff_login_page.php:161
+#: public/templates/rtwwwap_aff_login_page.php:233
+#: public/templates/rtwwwap_aff_login_page.php:234
+#: public/templates/rtwwwap_aff_login_page.php:313
+#: public/templates/rtwwwap_aff_login_page.php:314
+msgid "Password"
+msgstr ""
+
+#: public/templates/rtwwwap_aff_login_page.php:91
+#: public/templates/rtwwwap_aff_login_page.php:163
+#: public/templates/rtwwwap_aff_login_page.php:224
+#: public/templates/rtwwwap_aff_login_page.php:235
+#: public/templates/rtwwwap_aff_login_page.php:307
+#: public/templates/rtwwwap_aff_login_page.php:315
+msgid "Login"
+msgstr ""
+
+#: public/templates/rtwwwap_aff_login_page.php:156
+msgid "Login Form"
+msgstr ""
+
+#: public/templates/rtwwwap_aff_reg_page.php:33
+#: public/templates/rtwwwap_aff_reg_page.php:39
+msgid "Successfully Register"
+msgstr ""
+
+#: public/templates/rtwwwap_aff_reg_page.php:90
+msgid "Register your Account"
+msgstr ""
+
+#: public/templates/rtwwwap_aff_reg_page.php:98
+#: public/templates/rtwwwap_aff_reg_page.php:163
+#: public/templates/rtwwwap_aff_reg_page.php:225
+#: public/templates/rtwwwap_aff_reg_page.php:226
+#: public/templates/rtwwwap_aff_reg_page.php:296
+#: public/templates/rtwwwap_aff_reg_page.php:297
+msgid "E-Mail"
+msgstr ""
+
+#: public/templates/rtwwwap_aff_reg_page.php:104
+#: public/templates/rtwwwap_aff_reg_page.php:169
+#: public/templates/rtwwwap_aff_reg_page.php:232
+#: public/templates/rtwwwap_aff_reg_page.php:304
+msgid "Register"
+msgstr ""
+
+#: public/templates/rtwwwap_aff_reg_page.php:158
+msgid "Registration Form"
+msgstr ""
+
+#: public/templates/rtwwwap_aff_reg_page.php:216
+#: public/templates/rtwwwap_aff_reg_page.php:290
+msgid "Registration"
+msgstr ""
+
+#: public/templates/rtwwwap_aff_reset_password_page.php:43
+msgid "Key Expired"
+msgstr ""
+
+#: public/templates/rtwwwap_aff_reset_password_page.php:47
+msgid "Invalid Key"
+msgstr ""
+
+#: public/templates/rtwwwap_aff_reset_password_page.php:75
+#: public/templates/rtwwwap_aff_reset_password_page.php:90
+#: public/templates/rtwwwap_aff_reset_password_page.php:129
+#: public/templates/rtwwwap_aff_reset_password_page.php:142
+#: public/templates/rtwwwap_aff_reset_password_page.php:175
+#: public/templates/rtwwwap_aff_reset_password_page.php:193
+#: public/templates/rtwwwap_aff_reset_password_page.php:237
+#: public/templates/rtwwwap_aff_reset_password_page.php:252
+msgid "Reset your Password"
+msgstr ""
+
+#: public/templates/rtwwwap_aff_reset_password_page.php:87
+#: public/templates/rtwwwap_aff_reset_password_page.php:139
+#: public/templates/rtwwwap_aff_reset_password_page.php:190
+#: public/templates/rtwwwap_aff_reset_password_page.php:249
+msgid "New Password"
+msgstr ""
+
+#: public/templates/rtwwwap_aff_reset_password_page.php:96
+#: public/templates/rtwwwap_aff_reset_password_page.php:148
+#: public/templates/rtwwwap_aff_reset_password_page.php:199
+#: public/templates/rtwwwap_aff_reset_password_page.php:258
+msgid "Reset Password"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate.php:61
+msgid "Not approved yet"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate.php:67
+#: public/templates/rtwwwap_affiliate.php:76
+msgid "Become an Affiliate"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate.php:87
+msgid "Benefits of becoming our Affiliate"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:39
+msgid "Wallet"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:52
+msgid "Request for Withdraw"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:57
+msgid "Enter Your Message for Withdrawal of Commission to Admin"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:60
+msgid "Send mail"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:64
+msgid "Mail Sent Successfully"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:109
+msgid "Referral Bonus"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:155
+msgid "View Reason"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:159
+msgid "&#10060;"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:192
+#: public/templates/rtwwwap_affiliate_body.php:198
+msgid "Create Coupon"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:203
+msgid "You can create "
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:205
+msgid "Coupons"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:207
+msgid " once your Wallet amount is greater than "
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:222
+msgid "Coupon"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:249
+msgid "No Coupons"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:288
+msgid "Commission on all Products"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:356
+msgid "Per Product Commission"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:368
+#: public/templates/rtwwwap_affiliate_body.php:424
+msgid "Percentage commission (%)"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:403
+msgid "Specific Product commission not set. Check Category Commissions"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:413
+msgid "Per Category Commission"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:421
+msgid "Category Name"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:427
+msgid "Fixed commission"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:470
+msgid "Specific Category commission not set."
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:486
+msgid "Level No."
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:489
+msgid "Level Name"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:492
+msgid "Level commission"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:546
+msgid "No Commission is set on any Product"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:562
+msgid "Special Bonus Type"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:565
+msgid "Bonus Amount"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:596
+#: public/templates/rtwwwap_affiliate_body.php:599
+msgid "per Shared product"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:596
+msgid "with no Maximum Limit"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:599
+msgid "Maximum"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:602
+msgid "in a Day"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:605
+msgid "in a Week"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:608
+msgid "in a month"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:651
+msgid "Generate links"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:653
+msgid "Enter any product's URL from this website"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:655
+msgid "Generate link"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:657
+msgid "Copy link"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:662
+msgid "Create QR Code"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:677
+msgid "Tweet"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:682
+msgid "Facebook"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:686
+msgid "Mail"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:690
+msgid "Whatsapp"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:697
+msgid "Download QR"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:701
+msgid "Create banners"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:703
+msgid "Search Product"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:730
+msgid "Search"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:763
+msgid "Select Category"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:777
+msgid "Generate CSV"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:835
+msgid "Payout"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:838
+msgid "Your Affiliate Level : "
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:843
+msgid "Your Level Commission : "
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:849
+msgid "Activate Referral Emails : "
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:870
+msgid "Your Referral Code : "
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:878
+msgid "Select payment method : "
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:881
+msgid "Select payment Method"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:884
+msgid "Direct Bank"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:908
+msgid "Bank Details : "
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:909
+msgid "Enter your Bank A/c details here"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:920
+msgid "Paypal : "
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:921
+msgid "Enter your Paypal email here"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:930
+msgid "Stripe : "
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:931
+msgid "Enter your Stripe email here"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:934
+msgid "Save Details"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:955
+msgid "Profile"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:962
+#: public/templates/rtwwwap_affiliate_body.php:963
+msgid "First Name"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:965
+#: public/templates/rtwwwap_affiliate_body.php:966
+msgid "Last Name"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:971
+msgid "Update Details"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:1004
+msgid "MLM Plan -"
+msgstr ""
+
+#: public/templates/rtwwwap_affiliate_body.php:1009
+msgid "Number of Childs to start earning commission -"
+msgstr ""

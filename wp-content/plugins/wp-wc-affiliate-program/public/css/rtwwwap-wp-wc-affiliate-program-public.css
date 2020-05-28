@@ -1,0 +1,1171 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ /* register form 1 css start */
+ @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,300,400,500,600,700,800,900&display=swap');
+ /*common css*/
+ .rtwwwap-text {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  margin-top: 15px;
+}
+.rtwwwap-text .rtwwwap-text-icon {
+  align-items: center;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  border-style: solid;
+  border-width: 1px 0 1px 1px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 40px;
+}
+.rtwwwap-text input,.rtwwwap-text textarea, .rtwwwap-text select {
+  width: 100%;
+  background-color: #ffffff!important;
+  padding: 12px 15px !important;
+  line-height: 1.4;
+  border: 1px solid #dddddd !important;
+  box-shadow: none !important;
+  cursor: pointer;
+  font-size: 14px;
+}
+.rtwwwap-custom-radio label{
+  position: relative;
+  margin: 0 8px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.rtwwwap-custom-radio label input[type="radio"]{
+  width: auto;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  background-color: transparent;
+  border: none!important;
+  padding: 0;
+  cursor: pointer;
+}
+.rtwwwap-custom-radio label input::before {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  border: 2px solid #219595;
+  border-radius: 50%;
+  left: 0;
+  background-color: #ffffff;
+}
+.rtwwwap-custom-radio label input::after{
+  width: 10px;
+  height: 10px;
+  content: "";
+  position: absolute;
+  margin: 0 auto;
+  left: 5px;
+  background-color: #219595;
+  border-radius: 50%;
+  top: 5px;
+  display: inline-block;
+  opacity: 0;
+  transition: 0.3s linear all;
+  visibility: hidden;
+  transform: scale(0);
+}
+.rtwwwap-custom-radio label input:checked::after{
+  opacity: 1;
+  transition: 0.3s linear all;
+  visibility: visible;
+  transform: scale(1);
+}
+.rtwwwap-custom-checkbox,.rtwwwap-custom-radio{
+  margin-top: 15px;
+  display: inline-block;
+}
+.rtwwwap-custom-checkbox label{
+  position: relative;
+  margin: 0 15px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.rtwwwap-custom-checkbox label input[type="checkbox"]{
+  width: auto;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  background-color: transparent;
+  border: none!important;
+  padding: 0;
+  cursor: pointer;
+}
+.rtwwwap-custom-checkbox label input::before {
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 2px solid #219595;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  left: 0;
+  position: absolute;
+  width: 16px;
+}
+.rtwwwap-custom-checkbox label input::after{
+  border-bottom: 3px solid #219595;
+  border-left: 3px solid #219595;
+  content: "";
+  display: inline-block;
+  height: 7px;
+  left: 5px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0px;
+  width: 15px;
+  opacity: 0;
+  transition: 0.3s linear all;
+  visibility: hidden;
+  transform: scale(0) rotate(-45deg);
+  transform-origin: 8px 6px;
+}
+.rtwwwap-custom-checkbox label input:checked::after{
+  opacity: 1;
+  transition: 0.3s linear all;
+  visibility: visible;
+  transform: scale(1) rotate(-45deg);
+}
+/*end common css*/
+#rtwwwap-register-form {
+  border:2px solid #eeeeee;
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  box-shadow: 0 4px 38px 0 rgba(22,21,55,.06),0 0 21px 0 rgba(22,21,55,.03);
+  border-radius: 4px;
+}
+#rtwwwap-register-form .rtwwwap-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#rtwwwap-register-form .rtwwwap-title h2 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin-bottom: 30px;
+}
+#rtwwwap-register-form form input:focus{
+  border: 1px solid #dddddd;
+  box-shadow: none;
+  outline: none;
+}
+#rtwwwap-register-form form input[type="submit"] {
+  background-color: #219595;
+  color: #ffff;
+  letter-spacing: 1px;
+  font-size: 18px;
+  border: none;
+  margin:20px 0 15px 0;
+  padding: 15px;
+  width: 100%;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#rtwwwap-register-form form .rtwwwap-statement {
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+}
+#rtwwwap-register-form form input[type="submit"]:hover,
+#rtwwwap-register-form form input[type="submit"]:focus{
+  opacity: 0.6;
+}
+#rtwwwap-register-form .rtwwwap-login-link {
+  text-align: center;
+}
+.rtwwwap-login-link a {
+  color: #219595;
+  text-decoration: underline;
+  font-weight: 600;
+}
+/* register form 1 css end */
+/* register form 2 css start */
+.rtwwwap-form-wrapper {
+  padding: 20px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 1px 2px 20px rgba(0,0,0,0.15);
+}
+.rtwwwap-form-wrapper .rtwwwap-custom-radio label input::before{
+  border-color: #232055;
+}
+.rtwwwap-form-wrapper .rtwwwap-custom-radio label input:checked::after{
+  background-color: #232055;
+}
+.rtwwwap-form-wrapper .rtwwwap-custom-checkbox label input::before{
+  border-color: #232055;
+}
+.rtwwwap-form-wrapper .rtwwwap-custom-checkbox label input:checked::after{
+  border-color: #232055;
+}
+.rtwwwap-form-wrapper .rtwwwap-text .rtwwwap-text-icon {
+  background-color: #232055;
+  color: #ffffff;
+  border-color: #232055;
+}
+.rtwwwap-form-wrapper form h2 {
+  background-color: #232055;
+  color: #ffffff;
+  padding: 28px 15px;
+  font-size: 26px;
+  text-align: center;
+  margin: -20px -20px 20px -20px;
+}
+.rtwwwap-form-wrapper form input[type="text"]:focus,
+.rtwwwap-form-wrapper form input[type="email"]:focus{
+ outline: 0;
+}
+.rtwwwap-form-wrapper form input[type="submit"] {
+  background-color: #232055;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 30px;
+  border: none;
+  font-size: 16px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.rtwwwap-form-wrapper form .rtwwwap-statement {
+  color: #333333;
+}
+/* register form 2 css end */
+/* register form 3 css start */
+.rtwwwap-form-wrapper-2 {
+  box-shadow: 1px 2px 10px rgba(0,0,0,0.2);
+}
+.rtwwwap-form-wrapper-2 .rtwwwap-text{
+  margin: 0 0 15px 0;
+}
+.rtwwwap-form-wrapper-2 .rtwwwap-form-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.rtwwwap-form-wrapper-2 .rtwwwap-form-image {
+  flex: 0 0 40%;
+  background-image: url('http://localhost/rtw-form-banner.jpg');
+  background-size: cover;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.rtwwwap-form-wrapper-2 .rtwwwap-form-content {
+  flex: 0 0 58%;
+  margin-left: 2%;
+}
+.rtwwwap-form-wrapper-2 .rtwwwap-form-image h2 {
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+.rtwwwap-form-wrapper-2 .rtwwwap-form-content form {
+  padding: 30px 20px 20px 10px;
+  margin: 0;
+}
+.rtwwwap-form-wrapper-2 .rtwwwap-custom-radio label input::before{
+  border-color: #0150C9;
+}
+.rtwwwap-form-wrapper-2 .rtwwwap-custom-radio label input:checked::after{
+  background-color: #0150C9;
+}
+.rtwwwap-form-wrapper-2 .rtwwwap-custom-checkbox label input::before{
+  border-color: #0150C9;
+}
+.rtwwwap-form-wrapper-2 .rtwwwap-custom-checkbox label input:checked::after{
+  border-color: #0150C9;
+}
+.rtwwwap-form-wrapper-2 input[type="text"]:focus,
+.rtwwwap-form-wrapper-2 input[type="email"]:focus{
+  outline: 0;
+}
+.rtwwwap-form-wrapper-2 input[type="submit"] {
+  background-color: #0150C9;
+  color: #fff;
+  border-radius: 40px;
+  padding: 12px;
+  min-width: 150px;
+  text-align: center;
+  letter-spacing: 1px;
+  position: relative;
+  font-weight: 600;
+  border: none;
+  margin: 30px 0 20px 0;
+  cursor: pointer;
+}
+.rtwwwap-form-wrapper-2 input[type="submit"]:hover, .rtwwwap-form-wrapper-2 input[type="submit"]:focus {
+  background-color: #74C7FE;
+}
+.rtwwwap-form-wrapper-2 form .rtwwwap-statement {
+  color: #8e8e8e;
+}
+@media screen and (max-width: 767px) {
+  .rtwwwap-form-wrapper-2 .rtwwwap-form-image,
+  .rtwwwap-form-wrapper-2 .rtwwwap-form-content{
+    flex: 0 0 100%;
+  }
+  .rtwwwap-form-wrapper-2 .rtwwwap-form-content{
+    margin-left: 0;
+  }
+  .rtwwwap-form-wrapper-2 .rtwwwap-form-image{
+    padding: 60px 20px;
+  }
+}
+/* register form 3 css end */
+/* register form 4 css start */
+.rtwwwap-form-wrapper-3 {
+  background-color: #E85A26;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 5px;
+}
+.rtwwwap-form-wrapper-3 .rtwwwap-text {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.rtwwwap-form-wrapper-3 .rtwwwap-form-inner {
+  padding: 30px;
+}
+.rtwwwap-form-wrapper-3 .rtwwwap-form-content {
+  background-color: rgba(255,255,255,0.7);
+  padding: 20px;
+  color: #000;
+  border-radius: 10px;
+}
+.rtwwwap-form-wrapper-3 .rtwwwap-form-content form {
+  margin: 0;
+}
+.rtwwwap-form-wrapper-3 .rtwwwap-form-content form h2 {
+  text-align: center;
+  font-weight: 600;
+  color: #000000;
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+.rtwwwap-form-wrapper-3 .rtwwwap-custom-radio label input::before{
+  border-color: #E85A26;
+}
+.rtwwwap-form-wrapper-3 .rtwwwap-custom-radio label input:checked::after{
+  background-color: #E85A26;
+}
+.rtwwwap-form-wrapper-3 .rtwwwap-custom-checkbox label input::before{
+  border-color: #E85A26;
+}
+.rtwwwap-form-wrapper-3 .rtwwwap-custom-checkbox label input:checked::after{
+  border-color: #E85A26;
+}
+.rtwwwap-form-wrapper-3 input[type="text"]:focus,
+.rtwwwap-form-wrapper-3 input[type="email"]:focus{
+  outline: 0;
+}
+.rtwwwap-form-wrapper-3 input[type="submit"] {
+  background-color: #8282D5;
+  color: #ffffff;
+  border-radius: 4px;
+  min-width: 150px;
+  margin: 20px 0;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.rtwwwap-form-wrapper-3 input[type="submit"]:hover, .rtwwwap-form-wrapper-3 input[type="submit"]:focus {
+  opacity: 0.7;
+  background-color: #e85a26;
+  color: #ffffff;
+}
+.rtwwwap-form-wrapper-3 form .rtwwwap-statement {
+  color: #868686;
+}
+@media screen and (max-width:576px) {
+  .rtwwwap-form-wrapper-3 .rtwwwap-form-inner,.rtwwwap-form-wrapper-3 .rtwwwap-form-content{
+    padding: 10px;
+  }
+}
+/* register form 4 css end */
+.rtwwwap_request_withdraw {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.rtwwwap_request_texraea {
+  width: calc(100% - 220px);
+  margin-right: 20px;
+}
+.rtwwwap_request_button-wrap {
+  width: 200px;
+  text-align: right;
+}
+.rtwwwap_request_button-wrap #rtwwwap_rqst_mail{
+  margin-right: 0;
+}
+.rtwwwap_rqst_msg_hidden{
+  display: none;
+}
+.rtwwwap_rqst_mail_sent{
+  font-weight: 600;
+  color: green;
+  text-align: center;
+}
+#rtwwwap_show_active_only {
+  margin-right: 10px;
+}
+#rtwwwap_mlm_show .orgchart td{
+  border: none;
+}
+#rtwwwap_mlm_show .orgchart .lines .rightLine {
+  border-right: 1px solid rgba(217, 83, 79, 0.8);
+}
+#rtwwwap_mlm_show .orgchart .lines .leftLine {
+  border-left: 1px solid rgba(217, 83, 79, 0.8);
+}
+#rtwwwap_mlm_show .orgchart .lines .topLine {
+  border-top: 2px solid rgba(217, 83, 79, 0.8);
+}
+.rtwwwap_mlm_chain_not{
+  display: none;
+  color: red;
+}
+.rtwwwap_disabled .title,
+.rtwwwap_noedit_disabled .title{
+  background-color: #dbd7d7 !important;
+  color: #8f8c8c !important;
+}
+.orgchart .rtwwwap-second-menu-icon {
+  transition: opacity .5s;
+  opacity: 0;
+  right: -5px;
+  top: -5px;
+  z-index: 2;
+  color: rgba(68, 157, 68, 0.5);
+  font-size: 18px;
+  position: absolute;
+}
+.orgchart .rtwwwap-second-menu-icon:hover { color: #000; }
+.orgchart .node .rtwwwap-second-menu-icon { opacity: 1;color: #000; }
+.orgchart .node .rtwwwap-second-menu {
+  position: absolute;
+  top: 0;
+  right: -90px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px 1px #999999;
+  background-color: #555;
+  z-index: 1;
+  padding: 2px 9px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 0;
+  visibility: hidden;
+}
+#rtwwwap_show_mlm_chain {
+  cursor: pointer;
+  display: block;
+  padding: 10px 20px;
+  background-color: #9575CD;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  width: 250px;
+}
+.rtwwwap-second-menu-icon:hover ~ .rtwwwap-second-menu{
+  opacity: 1;
+  visibility: visible;
+}
+#rtwwwap_mlm_data {
+  position: relative;
+  top: -60px;
+  display: inline-block;
+  margin-left: 10%;
+  width: 30%;
+  margin-right: 6%;
+}
+#rtwwwap_mlm_data li{
+  font-size: 32px;
+}
+.orgchart{
+  display: block !important;
+  background-image: none !important;
+}
+#rtwwwap_mlm_show{
+  position: relative;
+  display: inline-block;
+  top: 10px;
+  left: 10px;
+  height: auto;
+  width: calc(100% - 24px);
+  border-radius: 5px;
+  overflow: auto;
+  text-align: center;
+}
+#rtwwwap_mlm_chain_struct{
+  display: none;
+}
+#rtwwwap_search_main_container .rtwwwap_text_color_field {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  line-height: 1;
+  padding: 4px !important;
+  cursor: pointer;
+}
+.rtwwwap_comm_tab_width{
+  width: 30%;
+}
+.rtwwwap_span_copied {
+  display: inline-block;
+  position: relative;
+}
+#rtwwwap_copy_tooltip_link, #rtwwwap_copy_tooltip_script, #rtwwwap_copy_tooltip_html{
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 70px;
+  margin: 0 auto;
+  display: inline-block;
+  background-color: #383333;
+  text-align: center;
+  padding: 2px;
+  border-radius: 4px;
+  color: #ffffff;
+  top: -30px;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 16px;
+}
+#rtwwwap_copy_tooltip_link::after {
+  content: "";
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+  border-top: 7px solid #383333;
+  position: absolute;
+  bottom: -7px;
+  left: 38%;
+}
+.width-100{
+  width: 100%;
+}
+#rtwwwap_copy_tooltip_script,#rtwwwap_copy_tooltip_html {
+  left: -310px;
+  top: 18px;
+}
+#rtwwwap_copy_tooltip_script::after,#rtwwwap_copy_tooltip_html::after {
+  content: "";
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  position: absolute;
+  border-top: 8px solid #383333;
+  right: -10px;
+  transform: rotate(-90deg);
+  top: 11px;
+}
+#rtwwwap_not_approved {
+  background-color: #f8e0e0;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  border-left: 4px solid #e60b0b;
+  border-radius: 4px;
+}
+#rtwwwap_affiliate_menu{
+  border: none;
+}
+.rtwwwap_main_navigation .rtwwwap_menu {
+  margin: 0 0 20px 0;
+  display: flex;
+  background-color: #f5f5f5;
+  padding: 0;
+}
+.rtwwwap_main_navigation .rtwwwap_menu li {
+  list-style-type: none;
+  display: flex;
+  flex: 0 100%;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+.rtwwwap_main_navigation .rtwwwap_menu .current-menu-item{
+  background-color: #34aaaa;
+  position: relative;
+}
+.rtwwwap_main_navigation .rtwwwap_menu .current-menu-item a{
+  color: #ffffff;
+}
+.rtwwwap_main_navigation .rtwwwap_menu li a:focus{
+  outline: 0;
+}
+.rtwwwap_main_navigation .rtwwwap_menu .current-menu-item::after {
+  content: "";
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #34aaaa;
+  position: absolute;
+  bottom: -10px;
+}
+.rtwwwap_download_qr{
+  visibility: hidden;
+}
+.rtwwwap_commissionws_wrapper {
+  margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 1;
+  background-color: #ddd;
+  padding: 16px 15px;
+  font-size: 18px;
+  text-align: center;
+}
+.rtwwwap_commissionws_wrapper span {
+  margin-left: 20px;
+  font-size: 20px;
+}
+#rtwwwap_mail_optIn input {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+#rtwwwap_mail_optIn {
+  margin: 20px 0;
+  position: relative;
+}
+#rtwwwap_mail_optIn label {
+  margin-right: 20px;
+}
+#rtwwwap_email_setting, .rtwwwap_paypal, .rtwwwap_payment_type, .rtwwwap_direct {
+  margin: 20px 0;
+}
+.rtwwwap_setting_span{
+  display: inline-block;
+  width: 30%;
+}
+.rtwwwap_paypal_email, .rtwwwap_stripe_email{
+  width : 40%;
+}
+.rtwwwap_payment_hidden{
+  display: none;
+}
+#rtwwwap_aff_link_input{
+  width: 100%;
+}
+#rtwwwap_search_main_container {
+  margin: 20px -1% 0 -1%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#rtwwwap_banner_setting {
+  width: 70%;
+  margin-left: 2%;
+}
+#rtwwwap_banner_preview {
+  width: 28%;
+}
+#rtwwwap_banner_setting > div > label {
+  width: 160px;
+  display: inline-block;
+}
+#rtwwwap_banner_setting > div{
+  margin: 10px 0;
+}
+#rtwwwap_banner_preview > p {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.rtwwwap_searched_prod {
+  width: 22.333%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+#rtwwwap_generated_link{
+  padding: 3px 5px;
+  margin: 6px 3px 10px 3px;
+  font-size: 16px;
+  background-color: #0bb586;
+  color: #fff;
+  visibility: hidden;
+}
+.rtwwwap_prod_name {
+  margin: 10px 0 0 0;
+  font-weight: bold;
+}
+#rtwwwap_copy_to_clip, #rtwwwap_generate_qr{
+  visibility: hidden;
+}
+#rtwwwap_create_coupon {
+  margin-left: 15px;
+}
+#rtwwwap_affiliate_menu a{
+  padding:5px;
+}
+#rtwwwap_commission tbody tr:nth-child(2n) td,
+#rtwwwap_coupons tbody tr:nth-child(2n) td{
+  background-color: #efefef;
+}
+.rtwwwap_share_qr {
+  margin-top: 20px;
+}
+.rtwwwap_share_qr::after{
+  clear: both;
+  display: block;
+  content: "";
+}
+#rtwwwap_qrcode {
+  width: 110px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+#rtwwwap_qrcode img {
+  max-width: 100%;
+  width: auto;
+}
+#rtwwwap_coupon_amount {
+  padding: 8px;
+  width: 200px;
+}
+#rtwwwap_qrcode_main {
+  float: right;
+  width: 40%;
+}
+#rtwwwap_affiliate_menu .nav-tab-wrapper{
+  display: flex;
+  background-color: #90A4AE;
+}
+#rtwwwap_affiliate_menu .nav-tab-wrapper a {
+  padding: 10px;
+  background-color: #90A4AE;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: #ffffff;
+  border-right: 2px solid #dddddd;
+  transition: 0.3s linear all;
+}
+#rtwwwap_affiliate_menu .nav-tab-wrapper a:hover {
+  background-color: #9575CD;
+  transition: 0.3s linear all;
+}
+#rtwwwap_affiliate_menu .nav-tab-wrapper a:last-child{
+  border-right: none;
+}
+#rtwwwap_overview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.rtwwwap-overview-box {
+  padding: 10px 25px;
+  background-color: #4b4b6f;
+  margin-top: 10px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 6px;
+  width: 18%;
+  margin-right: 1%;
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+}
+.rtwwwap-overview-box span {
+  font-weight: bold;
+  display: block;
+  font-size:20px;
+  min-height: 40px;
+}
+#rtwwwap_create_coupon_container {
+  margin-top: 30px;
+  font-size: 16px;
+}
+#rtwwwap_affiliate_body .rtwwwap_create_coupon_text {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 6px;
+  border-left: 4px solid #4b4b6f;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  line-height: 1.6 !important;
+}
+#rtwwwap_affiliate_body {
+  margin-top: 20px;
+}
+#rtwwwap_commission {
+  border-spacing: 0;
+  width: 100%;
+  border-collapse: separate;
+}
+#rtwwwap_commission th ,
+#rtwwwap_coupons th {
+  background-color: #dddddd;
+}
+#rtwwwap_commission thead th{
+  padding: 15px;
+  vertical-align: middle;
+  text-align: center;
+}
+#rtwwwap_commission .rtwwwap_level_comm th{
+  padding: 15px;
+  vertical-align: middle;
+  text-align: left;
+}
+.rtwwwap_no_comm{
+  padding: 15px;
+  vertical-align: middle;
+  text-align: center !important;
+}
+#rtwwwap_commission td, #rtwwwap_commission th,#rtwwwap_coupons td ,#rtwwwap_coupons th {
+  padding: 10px 15px;
+  text-align: left;
+  vertical-align: top;
+}
+#rtwwwap_aff_link_input, #rtwwwap_banner_prod_search {
+  padding: 5px 15px;
+  border-radius: 4px;
+  margin-right: 15px;
+  line-height: 2.1;
+  vertical-align: middle;
+}
+.rtwwwap_select2_hidden {
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.125);
+}
+#rtwwwap_main_container a {
+  text-decoration: none;
+}
+#rtwwwap_generate_button,
+#rtwwwap_generate_banner_button,
+#rtwwwap_search_button,
+#rtwwwap_generate_csv,
+#rtwwwap_copy_to_clip,
+#rtwwwap_copy_to_clip_mlm,
+#rtwwwap_generate_qr,
+#rtwwwap_get_script,
+#rtwwwap_get_html,
+#rtwwwap_create_link,
+#rtwwwap_create_banner,
+.rtwwwap_download_qr,
+#rtwwwap_profile_save,
+#rtwwwap_payout_save,
+#rtwwwap_create_coupon,
+#rtwwwap_affiliate_activate,
+#rtwwwap_affiliate_activate_not,
+#rtwwwap_rqst_mail
+{
+  background-color: #9575CD;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 9px 30px;
+  min-width: 145px;
+  margin-right: 7px;
+  margin-top: 10px;
+  transition: 0.2s linear all;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  box-shadow: none;
+  background-image: none;
+  font-size: 14px;
+  line-height: 1.6;
+}
+#rtwwwap_generate_button:hover,
+#rtwwwap_generate_banner_button:hover,
+#rtwwwap_search_button:hover,
+#rtwwwap_generate_csv:hover,
+.rtwwwap_download_qr:hover,
+#rtwwwap_profile_save:hover,
+#rtwwwap_payout_save:hover,
+#rtwwwap_create_coupon:hover,
+#rtwwwap_generate_qr:hover,
+#rtwwwap_copy_to_clip:hover,
+#rtwwwap_copy_to_clip_mlm:hover,
+#rtwwwap_get_script:hover,
+#rtwwwap_get_html:hover,
+#rtwwwap_rqst_mail:hover,
+#rtwwwap_affiliate_activate:hover{
+  transition: 0.2s linear all;
+  opacity: 0.8;
+}
+#rtwwwap_is_affiliate h3 {
+  margin-top: 10px;
+  font-weight: 500;
+}
+#rtwwwap_generate_csv {
+  margin-left: 10px;
+  margin-top: 0;
+  padding-top: 9px;
+  padding-bottom: 12px;
+}
+.rtwwwap_select2_hidden {
+  max-width: 30%;
+  text-align: center;
+  width: 100%;
+  margin: 0 10px;
+}
+.rtwwwap-font_bold {
+  font-weight: bold;
+}
+.rtwwwap_social_share {
+  display: none;
+  flex-wrap: wrap;
+  text-align: center;
+  float: left;
+  width: 60%;
+  justify-content: space-around;
+}
+.rtwwwap_social_share_mlm{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  float: left;
+  width: 60%;
+  justify-content: space-around;
+}
+.rtwwwap_social_share a, .rtwwwap_social_share_mlm a{
+  text-decoration: none;
+}
+.rtwwwap_social_share .rtwwwap_btn,
+.rtwwwap_social_share .rtwwwap_fb_share,
+.rtwwwap_social_share .rtwwwap_mail_button,
+.rtwwwap_social_share .rtwwwap_whatsapp_share,
+.rtwwwap_social_share_mlm .rtwwwap_btn,
+.rtwwwap_social_share_mlm .rtwwwap_fb_share,
+.rtwwwap_social_share_mlm .rtwwwap_mail_button,
+.rtwwwap_social_share_mlm .rtwwwap_whatsapp_share {
+  width: 70px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.rtwwwap_select_cat ~ .select2.select2-container .select2-selection.select2-selection--single,
+.rtwwwap_payment_method ~ .select2.select2-container .select2-selection.select2-selection--single {
+  height: 46px;
+}
+.rtwwwap_select_cat ~ .select2.select2-container #select2--container,
+.rtwwwap_payment_method ~ .select2.select2-container .select2-selection__rendered {
+  line-height: 46px;
+}
+.rtwwwap_select_cat ~ .select2.select2-container .select2-selection__arrow,
+.rtwwwap_payment_method ~ .select2.select2-container .select2-selection__arrow{
+  top: 13px;
+}
+@media screen and (max-width:767px) {
+  .rtwwwap-overview-box{
+   width: 31%;
+ }
+ .rtwwwap_select2_hidden{
+   max-width: 100%;
+   margin-top: 10px;
+   margin-left: 0;
+ }
+ #rtwwwap_aff_link_input, #rtwwwap_banner_prod_search{
+   width: 100%;
+ }
+ #rtwwwap_generate_csv{
+   margin-left: 0;
+ }
+ .rtwwwap_searched_prod {
+   width: 100%;
+ }
+ .rtwwwap_select_cat ~ .select2.select2-container{
+   width: 100% !important;
+   margin-top: 10px;
+ }
+ #rtwwwap_qrcode_main,
+ .rtwwwap_social_share,
+ .rtwwwap_social_share_mlm{
+   width: 100%;
+ }
+ #rtwwwap_qrcode{
+   display: block;
+   margin: 20px 0;
+ }
+ #rtwwwap_banner_setting,
+ #rtwwwap_banner_preview {
+   width: 100%;
+   margin-left:0;
+ }
+ #rtwwwap_copy_tooltip_script, #rtwwwap_copy_tooltip_html {
+   left: 160px;
+   top: 18px;
+   right: auto;
+ }
+ #rtwwwap_copy_tooltip_script::after, #rtwwwap_copy_tooltip_html::after {
+   right: auto;
+   transform: rotate(90deg);
+   top: 11px;
+   left: -10px;
+ }
+}
+@media screen and (max-width: 576px) {
+  #rtwwwap_affiliate_menu .nav-tab-wrapper{
+   flex-wrap: wrap;
+ }
+ #rtwwwap_affiliate_menu .nav-tab-wrapper a{
+   border-right: none;
+   border-bottom: 1px solid #dddddd;
+ }
+ .rtwwwap-overview-box{
+   width: 44%;
+ }
+ #rtwwwap_commission td, #rtwwwap_commission th{
+   padding: 10px 8px;
+ }
+ .rtwwwap_main_navigation .rtwwwap_menu {
+   flex-wrap: wrap;
+ }
+ #rtwwwap_create_coupon {
+  margin-left: 5px;
+}
+.rtwwwap_request_texraea,
+.rtwwwap_request_button-wrap{
+  width: 100%;
+  margin-right: 0;
+}
+.rtwwwap_request_button-wrap{
+  text-align: center;
+}
+#rtwwwap_commission .rtwwwap_level_comm th {
+    padding: 15px 4px;
+    font-size: 12px;
+}
+#rtwwwap_affiliate_body{
+  overflow-y: auto;
+}
+#rtwwwap_aff_page_login {
+  width: 100%  !important;
+}
+#rtwwwap_aff_page_reg {
+  width: 100% !important;
+  margin-top: 3rem;
+}
+
+}
+
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  
+}
+
+.tooltiptext {
+ visibility: hidden;
+  min-width:250px ;
+  background-color: rgb(184, 184, 184);
+  color: rgb(3, 3, 3);
+  text-align: center;
+  border-radius: 6px;
+  padding:  0;
+  font-size: 15px;
+  word-wrap: normal;
+
+  /* Position the tooltip */
+  position: absolute;
+  left: 110px;
+  top: -10px;
+  z-index: 1;
+  padding: 10px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+ /*end media query*/
+
+ #rtwwwap_aff_not_login{
+  width:100%;
+ } 
+ #rtwwwap_aff_page_login{
+  
+  width:50%;
+  float: left;
+
+ }
+ #rtwwwap_aff_page_reg{
+  width:50%;
+  padding-left: 2%;
+
+  float: left;
+
+ }
+ #rtwwwap_reset_password_page{
+  
+  width:100%;
+
+
+ }
+
+
+/*error message box*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(148, 146, 146); /* Fallback color */
+  background-color: rgba(104, 104, 104, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.rtwwwap_modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+/* The Close Button */
+.rtwwwap_close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.rtwwwap_close:hover,
+.rtwwwap_close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.rtwwwap-reject-message-shown.show{
+	opacity: 1;
+	visibility: visible;
+	transition: 0.3s linear all;
+	pointer-events: all;
+}
+.rtwwwap-reject-message-shown{
+  display:none;
+}
+
+

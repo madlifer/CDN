@@ -1,0 +1,17 @@
+<wpml-config>
+	<admin-texts>
+		<key name="option_tree">
+			<key name="logo"/>
+			<key name="logo_dark"/>
+			<key name="popup_content"/>
+			<key name="subheader_text"/>
+			<key name="copyright"/>
+			<key name="menu_footer"/>
+			<key name="right_click_content"/>
+			<key name="thb_cookie_bar_content"/>
+		</key>
+	</admin-texts>
+	<custom-types>
+		<custom-type translate="1">revslider</custom-type>
+	</custom-types>
+</wpml-config>

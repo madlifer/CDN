@@ -1,0 +1,1336 @@
+# Translation of Plugins - TeraWallet &#8211; For WooCommerce - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - TeraWallet &#8211; For WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-22 10:48:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - TeraWallet &#8211; For WooCommerce - Stable (latest release)\n"
+
+#: includes/class-woo-wallet-frontend.php:175
+msgid "yyyy-mm-dd"
+msgstr "yyyy-mm-dd"
+
+#: includes/class-woo-wallet-frontend.php:174
+msgid "Search by date:"
+msgstr "按日期搜索："
+
+#: includes/actions/class-woo-wallet-action-referrals.php:77
+msgid "Enter amount which will be credited to the user wallet for referring a user."
+msgstr "输入将充值到用户钱包中的金额。"
+
+#: includes/class-woo-wallet-frontend.php:173
+msgid "Processing..."
+msgstr "处理中..."
+
+#: includes/class-woo-wallet-admin.php:103
+msgid "Display wallet icon and amount instead of menu navigation label?"
+msgstr "显示钱包图标和金额而不是菜单导航标签？"
+
+#: includes/admin/class-woo-wallet-balance-details.php:320
+msgid "You are about to delete transaction records from database for selected users."
+msgstr "您将从数据库中删除选定用户的转账记录。"
+
+#: includes/admin/class-woo-wallet-balance-details.php:307
+msgid "Delete Log"
+msgstr "删除日志"
+
+#: includes/admin/class-woo-wallet-balance-details.php:21
+msgid "cb"
+msgstr "cb"
+
+#: templates/woo-wallet-referrals.php:129
+msgid "Copied"
+msgstr "已复制"
+
+#: templates/woo-wallet-referrals.php:36
+msgid "Copy"
+msgstr "复制"
+
+#: templates/woo-wallet-referrals.php:35 templates/woo-wallet-referrals.php:134
+msgid "Copy to clipboard"
+msgstr "复制到剪贴板"
+
+#: includes/class-woo-wallet-frontend.php:632
+msgid "Please login to apply cashback coupon."
+msgstr "请登录后申请返现优惠券。"
+
+#: includes/admin/class-woo-wallet-transaction-details.php:66
+msgid "No transactions found."
+msgstr "未找到交易。"
+
+#: includes/admin/class-woo-wallet-balance-details.php:164
+msgid "No role"
+msgstr "无角色"
+
+#. translators: User role name with count
+#: includes/admin/class-woo-wallet-balance-details.php:152
+#: includes/admin/class-woo-wallet-balance-details.php:166
+msgid "%1$s <span class=\"count\">(%2$s)</span>"
+msgstr "%1$s <span class=\"count\">(%2$s)</span>"
+
+#: includes/admin/class-woo-wallet-balance-details.php:141
+msgctxt "users"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "所有<span class=\"count\">(%s)</span>"
+
+#: includes/admin/class-woo-wallet-balance-details.php:109
+msgid "No users found."
+msgstr "找不到用户。"
+
+#: includes/class-woo-wallet-frontend.php:344
+msgid "Minimum transfer amount is %s"
+msgstr "最小转移金额为 %s"
+
+#: includes/class-woo-wallet-settings.php:149
+msgid "Enter minimum transfer amount"
+msgstr "输入最小转移金额"
+
+#: includes/class-woo-wallet-settings.php:148
+msgid "Minimum Transfer Amount"
+msgstr "最小转移金额"
+
+#. Author URI of the plugin
+msgid "https://wcbeginner.com/"
+msgstr "https://wcbeginner.com/"
+
+#. Author of the plugin
+msgid "WCBeginner"
+msgstr "WCBeginner"
+
+#. Plugin Name of the plugin
+msgid "TeraWallet"
+msgstr "TeraWallet"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:110
+msgid "Usernames as referral ID"
+msgstr "用户名作为推荐 ID"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:110
+msgid "Numeric referral ID"
+msgstr "数字推荐 ID"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:106
+msgid "Referral Format"
+msgstr "推荐格式"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:100
+msgid "Referral Links"
+msgstr "推荐链接"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:96
+msgid "Balance credited for referring a new member"
+msgstr "为推荐新会员而记入的余额"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:65
+msgid "Balance credited for referring a visitor"
+msgstr "余额记入指定访客"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:55
+#: includes/actions/class-woo-wallet-action-referrals.php:86
+msgid "Per Month"
+msgstr "每月"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:55
+#: includes/actions/class-woo-wallet-action-referrals.php:86
+msgid "Per Week"
+msgstr "每周"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:55
+#: includes/actions/class-woo-wallet-action-referrals.php:86
+msgid "Per Day"
+msgstr "每天"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:55
+#: includes/actions/class-woo-wallet-action-referrals.php:86
+msgid "No Limit"
+msgstr "没有限制"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:51
+#: includes/actions/class-woo-wallet-action-referrals.php:82
+msgid "Limit"
+msgstr "限制"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:34
+msgid "Enable credit for referrals."
+msgstr "启用推荐额度"
+
+#: templates/woo-wallet-referrals.php:47
+msgid "Total Earnings"
+msgstr "总计收入"
+
+#: templates/woo-wallet-referrals.php:40
+msgid "Statistics"
+msgstr "统计"
+
+#: templates/woo-wallet-referrals.php:31
+msgid "Your referral URL is:"
+msgstr "您的推广链接是:"
+
+#: includes/class-woo-wallet-frontend.php:162
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "正在显示 0 到 0, 共 0 个条目"
+
+#: includes/class-woo-wallet-ajax.php:206
+msgid "Invalid nonce"
+msgstr "无效随机值"
+
+#: includes/class-woo-wallet-ajax.php:202
+msgid "You have no permission to do that"
+msgstr "您没有权限进行此操作。"
+
+#: includes/class-woo-wallet-frontend.php:325
+msgid "Wallet funds transfer to %s"
+msgstr "钱包资金转移到%s"
+
+#: includes/class-woo-wallet-frontend.php:324
+msgid "Wallet funds received from %s"
+msgstr "从%s收到的钱包资金"
+
+#: includes/class-woo-wallet-admin.php:794
+msgid "Learn More"
+msgstr "了解更多"
+
+#: includes/class-woo-wallet-admin.php:793
+msgid "Use superpowers to stand above the crowd. our high-octane add-ons are designed to boost your store wallet features."
+msgstr "使用超能力站在人群之上。我们的高品质附加组件旨在提升您的商店钱包功能。"
+
+#: includes/class-woo-wallet-admin.php:792
+msgid "Obtain Superpowers to get the best out of TeraWallet"
+msgstr "获得更多扩展，以充分利用TeraWallet"
+
+#: includes/class-woo-wallet-widgets.php:74
+msgid "Title:"
+msgstr "标题："
+
+#: includes/class-woo-wallet-widgets.php:20
+msgctxt "Wallet Top-up widget"
+msgid "Wallet Top-up"
+msgstr "钱包充值"
+
+#: includes/class-woo-wallet-widgets.php:17
+msgid "TeraWallet top-up form for your site."
+msgstr "为您的网站提供 TeraWallet 充值表单。"
+
+#: includes/class-woo-wallet-admin.php:762
+msgid "Recalculate order cashback"
+msgstr "重新计算订单返现"
+
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp.php:53
+msgid "Wallet Charge"
+msgstr "钱包充值"
+
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp.php:54
+msgid "Percent Charge(%)"
+msgstr "百分比(%)"
+
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp.php:55
+msgid "Fixed Charge"
+msgstr "固定金额"
+
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp.php:56
+msgid "Tax for withdrawal charge, calculate in percent."
+msgstr "提款费用，按百分比计算。"
+
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp-gateway.php:42
+msgid "Commission received for commission id #"
+msgstr "佣金 id 收到的佣金"
+
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp.php:56
+msgid "Charge Tax"
+msgstr "收取手续费"
+
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:264
+msgid "Withdrawal request #"
+msgstr "提现申请 #"
+
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp-gateway.php:60
+msgid "Minimum threshold amount to withdrawal commission is "
+msgstr "最低提现金额"
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:40
+msgid "Exclude user role"
+msgstr "排除用户角色"
+
+#: includes/class-woo-wallet-admin.php:743
+msgid "Refunded"
+msgstr "已退款"
+
+#: includes/class-woo-wallet-ajax.php:55
+msgid "%s refunded to customer wallet"
+msgstr "%s 已退还到客户钱包"
+
+#: includes/class-woo-wallet-settings-api.php:416
+#: includes/class-woo-wallet-settings-api.php:417
+msgid "Select"
+msgstr "选择"
+
+#: includes/class-woo-wallet-settings.php:110
+msgid "Rechargeable Product Image"
+msgstr "充值商品图片"
+
+#: includes/class-woo-wallet-settings.php:111
+msgid "Choose wallet rechargeable product image"
+msgstr "选择充值产品图片"
+
+#: includes/class-woo-wallet-settings.php:114
+#: includes/class-woo-wallet-settings.php:116
+msgid "Set product image"
+msgstr "设置产品图片"
+
+#: includes/class-woo-wallet-settings.php:115
+msgid "Product image"
+msgstr "产品图片"
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:41
+msgid "This option lets you limit which user role you want to exclude."
+msgstr "此选项允许您限制需要排除的用户角色。"
+
+#: includes/api/class-wc-rest-woo-wallet-controller.php:64
+msgid "Wallet transaction type."
+msgstr "钱包交易类型。"
+
+#: includes/api/class-wc-rest-woo-wallet-controller.php:151
+msgid "Sorry, you cannot list resources."
+msgstr "抱歉，您无权列出资源."
+
+#: includes/api/class-wc-rest-woo-wallet-controller.php:73
+msgid "Wallet transaction details."
+msgstr "钱包交易详情。"
+
+#: includes/api/class-wc-rest-woo-wallet-controller.php:68
+msgid "Wallet transaction amount."
+msgstr "钱包交易额。"
+
+#: includes/api/class-wc-rest-woo-wallet-controller.php:164
+msgid "Sorry, you are not allowed to create resources."
+msgstr "对不起，您没有权限创建资源。"
+
+#: includes/abstracts/abstract-woo-wallet-actions.php:68
+msgid "Your settings have been saved."
+msgstr "您的设置已经保存"
+
+#: includes/abstracts/abstract-woo-wallet-actions.php:71
+msgid "Return to actions"
+msgstr "更多操作"
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:11
+msgid "Daily visits"
+msgstr "每日访问"
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:12
+msgid "Set credit for daily visits"
+msgstr "设置每日访问奖励"
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:29
+msgid "Enable credit for daily visits."
+msgstr "启用每日访问奖励"
+
+#: includes/actions/class-woo-wallet-action-new-registration.php:11
+msgid "New user registration"
+msgstr "新用户注册"
+
+#: includes/actions/class-woo-wallet-action-new-registration.php:28
+msgid "Enable auto credit upon user registration"
+msgstr "启用用户注册奖励"
+
+#: includes/actions/class-woo-wallet-action-new-registration.php:42
+msgid "Balance credited for becoming a member."
+msgstr "成为会员的余额"
+
+#: includes/actions/class-woo-wallet-action-product-review.php:11
+msgid "WooCommerce product review"
+msgstr "WooCommerce 产品评论"
+
+#: includes/actions/class-woo-wallet-action-product-review.php:29
+msgid "Enable credit for WooCommerce product review"
+msgstr "启用评论奖励"
+
+#: includes/actions/class-woo-wallet-action-product-review.php:43
+msgid "Balance credited for reviewing a WooCommerce product."
+msgstr "用户浏览商品的奖励"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:17
+#: includes/actions/class-woo-wallet-action-referrals.php:129
+msgid "Referrals"
+msgstr "推荐"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:38
+#: templates/woo-wallet-referrals.php:45
+msgid "Referring Visitors"
+msgstr "推荐访客"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:69
+#: templates/woo-wallet-referrals.php:46
+msgid "Referring Signups"
+msgstr "推荐注册"
+
+#: includes/class-woo-wallet-admin.php:165
+msgid "Wallet actions"
+msgstr "钱包操作"
+
+#: includes/class-woo-wallet-admin.php:173
+msgid "Action"
+msgstr "操作"
+
+#: includes/class-woo-wallet-admin.php:184
+msgid "Enabled"
+msgstr "启用"
+
+#: includes/class-woo-wallet-admin.php:186
+msgid "Disabled"
+msgstr "已停用"
+
+#: includes/class-woo-wallet-admin.php:194
+msgid "Manage"
+msgstr "管理"
+
+#: includes/class-woo-wallet-admin.php:196
+msgid "Setup"
+msgstr "设置"
+
+#: includes/class-woo-wallet-admin.php:184
+msgid "Yes"
+msgstr "是"
+
+#: includes/class-woo-wallet-admin.php:168
+msgid "Integrated wallet actions are listed below. If active those actions will be triggered with respective WordPress hook."
+msgstr "下面列出了钱包中集成的操作。如果激活，将使用相应的 WordPress 挂钩触发这些操作。"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:18
+msgid "Set credit ruls for referrals"
+msgstr "设置推荐奖励额度"
+
+#: includes/actions/class-woo-wallet-action-product-review.php:35
+msgid "Enter amount which will be credited to the user wallet for reviewing a WooCommerce product."
+msgstr "输入浏览商品时奖励给用户的额度"
+
+#: includes/actions/class-woo-wallet-action-product-review.php:12
+msgid "Set credit for WooCommerce product review"
+msgstr "设置评论商品后奖励给用户的额度"
+
+#: includes/actions/class-woo-wallet-action-new-registration.php:34
+msgid "Enter amount which will be credited to the user wallet after registration."
+msgstr "输入用户注册后奖励给用户的额度"
+
+#: includes/actions/class-woo-wallet-action-new-registration.php:12
+msgid "Set credit upon new user registration"
+msgstr "启用用户注册奖励"
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:52
+msgid "Balance credited visiting site."
+msgstr "访问网站奖励"
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:35
+#: includes/actions/class-woo-wallet-action-referrals.php:46
+msgid "Enter amount which will be credited to the user wallet for daily visits."
+msgstr "输入每天访问网站后奖励给用户的金额。"
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:51
+#: includes/actions/class-woo-wallet-action-referrals.php:64
+#: includes/actions/class-woo-wallet-action-referrals.php:95
+#: includes/actions/class-woo-wallet-action-new-registration.php:41
+#: includes/actions/class-woo-wallet-action-product-review.php:42
+msgid "Wallet transaction description that will display as transaction note."
+msgstr "钱包交易描述将显示为交易记录。"
+
+#: includes/class-woo-wallet-admin.php:712
+msgid "View details"
+msgstr "查看详情"
+
+#: includes/class-woo-wallet-extensions.php:31
+#: includes/class-woo-wallet-extensions.php:82
+msgid "Extensions"
+msgstr "扩展"
+
+#: includes/class-woo-wallet-settings.php:164
+msgid "Enter transfer charge amount"
+msgstr "输入转账手续费金额"
+
+#: includes/class-woo-wallet-settings.php:163
+msgid "Transfer charge Amount"
+msgstr "转账手续费金额"
+
+#: includes/class-woo-wallet-settings.php:155
+msgid "Transfer charge type"
+msgstr "转账手续费类型"
+
+#: includes/class-woo-wallet-frontend.php:469
+msgid "Upon placing this order a cashback of %s will be credited to your wallet."
+msgstr "在下此订单时, %s  返现将被充值到您的钱包。"
+
+#: includes/class-woo-wallet-settings.php:178
+msgid "Process cashback"
+msgstr "处理返现"
+
+#: includes/class-woo-wallet-settings.php:181
+msgid "On hold"
+msgstr "已挂起"
+
+#: includes/class-woo-wallet-settings.php:181
+msgid "Processing"
+msgstr "处理中"
+
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:226
+msgid "0.00"
+msgstr "0.00"
+
+#: includes/class-woo-wallet-frontend.php:172
+msgid "Searching…"
+msgstr "正在搜索…"
+
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:203
+msgid "Set product cashback options"
+msgstr "设置返现选项"
+
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:202
+msgid "Cashback Options"
+msgstr "返现选项"
+
+#: includes/class-woo-wallet-settings.php:181
+msgid "Completed"
+msgstr "已完成"
+
+#: includes/class-woo-wallet-settings.php:181
+msgid "Pending payment"
+msgstr "等待支付"
+
+#: includes/class-woo-wallet-settings.php:179
+msgid "Select order status to process cashback"
+msgstr "选择进行返现时的订单状态"
+
+#: includes/class-woo-wallet-admin.php:698
+msgid "Wallet Balance"
+msgstr "钱包余额"
+
+#. Description of the plugin
+msgid "The leading wallet plugin for WooCommerce with partial payment, refunds, cashbacks and what not!"
+msgstr "领先的 WooCommerce 钱包插件，包括部分支付、退款、返现等等！"
+
+#: includes/api/class-wc-rest-woo-wallet-controller.php:44
+#: includes/api/class-wc-rest-woo-wallet-controller.php:84
+#: includes/api/class-woo-wallet-rest-controller.php:32
+#: includes/api/class-woo-wallet-rest-controller.php:56
+msgid "Unique identifier for the resource."
+msgstr "资源的唯一标识符。"
+
+#: includes/class-woo-wallet-payment-method.php:151
+#: includes/class-woo-wallet-ajax.php:52 includes/class-woo-wallet-ajax.php:118
+msgid "Wallet refund #"
+msgstr "钱包退款 #"
+
+#: includes/class-woo-wallet-frontend.php:159
+msgid "No transactions available"
+msgstr "没有找到交易记录"
+
+#: includes/class-woo-wallet-frontend.php:160
+msgid "Show %s entries"
+msgstr "显示 %s 条内容"
+
+#: includes/class-woo-wallet-frontend.php:164
+msgid "First"
+msgstr "首页"
+
+#: includes/class-woo-wallet-frontend.php:165
+msgid "Last"
+msgstr "尾页"
+
+#: includes/class-woo-wallet-frontend.php:166
+msgid "Next"
+msgstr "下一步"
+
+#: includes/class-woo-wallet-frontend.php:167
+msgid "Previous"
+msgstr "上一页"
+
+#: includes/class-woo-wallet-frontend.php:169
+msgid "Please enter a valid email address"
+msgstr "请输入邮件地址"
+
+#: includes/class-woo-wallet-frontend.php:170
+msgid "No results found"
+msgstr "没有找到结果"
+
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:110
+msgid "Something went wrong and the order can not be processed!"
+msgstr "出现了一些错误，订单未能处理！"
+
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:116
+msgid "Order %s payment completed"
+msgstr "订单 %s 支付完成"
+
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:171
+msgid "Commission received for order id "
+msgstr "收到订单编号的佣金 "
+
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:166
+msgid "Order %d payment Auto paid via Wallet"
+msgstr "订单 %d 已通过钱包自动支付"
+
+#: includes/class-woo-wallet-frontend.php:171
+msgid "Please enter 3 or more characters"
+msgstr "请输入 3 个或 3 个以上字符"
+
+#: includes/class-woo-wallet-frontend.php:161
+msgid "Showing %1s to %2s of %3s entries"
+msgstr "当前显示 %3s 中的  %1s 到 %2s"
+
+#: includes/class-woo-wallet-payment-method.php:67
+msgid "This controls the title which the user sees during checkout."
+msgstr "此选项控制用户在结账时看到的标题。"
+
+#: includes/class-woo-wallet-wallet.php:155
+msgid "%s paid through wallet"
+msgstr "%s 通过钱包支付"
+
+#: includes/class-woo-wallet-wallet.php:169
+msgid "Wallet amount %s has been credited to customer upon cancellation"
+msgstr "钱包金额 %s 已在取消时返还给客户"
+
+#: includes/class-woo-wallet-wallet.php:178
+msgid "Cashback for #%s has been debited upon cancellation"
+msgstr "订单 #%s 的返现已在取消订单时扣除"
+
+#: templates/wc-endpoint-wallet.php:80
+msgid "(Email)"
+msgstr "(Email)"
+
+#: includes/class-woo-wallet-wallet.php:168
+msgid "Your order with ID #%s has been cancelled and hence your wallet amount has been refunded!"
+msgstr "您的订单 %s 订单已被取消, 钱包金额已被退还!"
+
+#: includes/class-woo-wallet-wallet.php:114
+msgid "Wallet credit through purchase #"
+msgstr "通过购买获得钱包余额 #"
+
+#: includes/class-woo-wallet-wallet.php:128
+msgid "Wallet credit through cashback #"
+msgstr "通过返现获取钱包余额 #"
+
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp-gateway.php:70
+msgid "Commission received for commission id "
+msgstr "已收到佣金id的佣金 "
+
+#: includes/class-woo-wallet-admin.php:237
+msgid "to customer wallet"
+msgstr "到客户钱包"
+
+#. translators: 1: user_login, 2: user_email
+#: includes/class-woo-wallet-ajax.php:161
+#: includes/class-woo-wallet-ajax.php:182
+msgctxt "user autocomplete result"
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: includes/class-woo-wallet-payment-method.php:121
+#: includes/class-woo-wallet-payment-method.php:169
+#: includes/class-woo-wallet-wallet.php:153
+msgid "For order payment #"
+msgstr "订单付款#"
+
+#: includes/class-woo-wallet-settings.php:86
+msgid "Credit Options"
+msgstr "充值选项"
+
+#: includes/class-woo-wallet-frontend.php:471
+msgid "Please <a href=\"%s\">log in</a> to avail %s cashback from this order."
+msgstr "请 <a href=\"%s\">登录</a> 获取 %s 这笔订单的返现。"
+
+#: includes/class-woo-wallet-admin.php:124
+#: includes/class-woo-wallet-admin.php:126
+msgid "Woo Wallet"
+msgstr "Woo 钱包"
+
+#: includes/class-woo-wallet-frontend.php:351
+msgid "Invalid user"
+msgstr "无效用户"
+
+#: includes/class-woo-wallet-frontend.php:357
+msgid "Entered amount is greater than current wallet amount."
+msgstr "输入的金额大于当前钱包余额。"
+
+#: includes/class-woo-wallet-frontend.php:368
+msgid "Amount transferred successfully!"
+msgstr "余额转账成功！"
+
+#: includes/class-woo-wallet-settings.php:141
+msgid "Allow Wallet Transfer"
+msgstr "允许使用钱包转账"
+
+#: includes/class-woo-wallet-settings.php:142
+msgid "If checked user will be able to transfer fund to another user."
+msgstr "如果选中此项，用户可以转账给其他用户。"
+
+#: templates/wc-endpoint-wallet.php:90
+msgid "What's this for"
+msgstr "备注"
+
+#: templates/wc-endpoint-wallet.php:95
+msgid "Proceed to transfer"
+msgstr "开始转账"
+
+#: templates/wc-endpoint-wallet.php:78
+msgid "Select whom to transfer"
+msgstr "选择转账对象"
+
+#: templates/wc-endpoint-wallet.php:30
+msgid "Wallet transfer"
+msgstr "钱包转账"
+
+#: includes/class-woo-wallet-admin.php:236
+#: includes/class-woo-wallet-admin.php:745
+msgid "Refund"
+msgstr "退款"
+
+#: includes/class-woo-wallet-frontend.php:284
+msgid "The minimum amount needed for wallet top up is %s"
+msgstr "充值金额最少为 %s"
+
+#: includes/class-woo-wallet-frontend.php:290
+msgid "Wallet top up amount should be less than %s"
+msgstr "充值金额最多为 %s"
+
+#: includes/class-woo-wallet-settings.php:121
+msgid "Minimum Topup Amount"
+msgstr "最小充值金额"
+
+#: includes/class-woo-wallet-settings.php:128
+msgid "Maximum Topup Amount"
+msgstr "最大充值金额"
+
+#: templates/emails/user-new-transaction.php:26
+#: templates/emails/user-new-transaction.php:29
+#: templates/emails/plain/user-new-transaction.php:24
+#: templates/emails/plain/user-new-transaction.php:27
+msgid "Thank you for using your wallet."
+msgstr "感谢使用钱包。"
+
+#: templates/emails/user-new-transaction.php:26
+#: templates/emails/plain/user-new-transaction.php:24
+msgid "has been credited to your wallet."
+msgstr "已充值到你的钱包。"
+
+#: templates/emails/user-new-transaction.php:26
+#: templates/emails/user-new-transaction.php:29
+#: templates/emails/plain/user-new-transaction.php:24
+#: templates/emails/plain/user-new-transaction.php:27
+msgid "Current wallet balance is"
+msgstr "当前余额为"
+
+#: templates/wc-endpoint-wallet-transactions.php:23
+msgid "Current balance :"
+msgstr "当前余额："
+
+#: templates/wc-endpoint-wallet.php:56
+msgid "Balance"
+msgstr "余额"
+
+#: includes/class-woo-wallet-settings.php:129
+msgid "The maximum amount needed for wallet top up"
+msgstr "钱包可充值的最大金额 "
+
+#: includes/class-woo-wallet-settings.php:122
+msgid "The minimum amount needed for wallet top up"
+msgstr "钱包可充值的最小金额 "
+
+#: includes/class-woo-wallet-frontend.php:296
+msgid "Wallet top up amount should be between %s and %s"
+msgstr "钱包充值金额应该在 %s 与 %s 之间"
+
+#: includes/class-woo-wallet-frontend.php:302
+#: includes/class-woo-wallet-frontend.php:374
+msgid "Cheatin&#8217; huh?"
+msgstr "开玩笑&#8217; 呵?"
+
+#: includes/class-woo-wallet-payment-method.php:118
+msgid "Payment error: "
+msgstr "支付出错: "
+
+#: includes/class-woo-wallet-payment-method.php:118
+msgid "Your wallet balance is low. Please add %s to proceed with this transaction."
+msgstr "你的钱包余额不足，请充值 %s 以继续此交易。"
+
+#: templates/woo-wallet-partial-payment.php:27
+msgid "%s will be debited from your wallet and %s will be paid through other payment method"
+msgstr "将从您的钱包扣除 %s，然后从其他支付方式直接支付 %s"
+
+#: templates/woo-wallet-partial-payment.php:32
+msgid "If checked %s will be debited from your wallet and %s will be paid through other payment method"
+msgstr "如果选择此项，将从您的钱包扣除 %s，然后从其他支付方式直接支付 %s"
+
+#: includes/class-woo-wallet-frontend.php:665
+msgid "Cashback: %s"
+msgstr "返现: %s"
+
+#: includes/class-woo-wallet-settings.php:211
+msgid "Minimum Cart Amount"
+msgstr "最小订单金额"
+
+#: includes/class-woo-wallet-settings.php:212
+msgid "Enter applicable minimum cart amount for cashback"
+msgstr "输入可以获得返现的最小订单金额"
+
+#: includes/class-woo-wallet-settings.php:226
+msgid "If checked minimum cashback amount will be applied on product category cashback calculation."
+msgstr "如果选中，最小返还金额将应用于产品类别现金返还计算。"
+
+#: includes/class-woo-wallet-settings.php:225
+msgid "Allow Minimum cashback"
+msgstr "允许返现的最小金额"
+
+#: includes/class-woo-wallet-settings.php:191
+msgid "Product category wise"
+msgstr "产品分类"
+
+#: includes/class-woo-wallet-frontend.php:650
+msgid "Coupon code applied successfully as cashback."
+msgstr "优惠券代码成功应用为返现。"
+
+#: includes/class-woo-wallet-admin.php:590
+msgid "Endpoint for the \"My account &rarr; My Wallet\" page."
+msgstr "“我的账户& rarr；我的钱包”页面。"
+
+#: includes/class-woo-wallet-admin.php:597
+#: includes/class-woo-wallet-frontend.php:123
+msgid "Wallet Transactions"
+msgstr "钱包交易"
+
+#: includes/class-woo-wallet-admin.php:598
+msgid "Endpoint for the \"My account &rarr; View wallet transactions\" page."
+msgstr "“我的账户& rarr；查看钱包交易”页面。"
+
+#: includes/class-woo-wallet-admin.php:608
+msgid "Wallet endpoints"
+msgstr "钱包端点"
+
+#: includes/class-woo-wallet-admin.php:610
+msgid "Endpoints are appended to your page URLs to handle specific actions on the accounts pages. They should be unique and can be left blank to disable the endpoint."
+msgstr "端点被附加到您的页面URL上，以处理账户页面上的特定操作。它们应该是唯一的，可以留空以禁用端点。"
+
+#: includes/class-woo-wallet-admin.php:273
+msgid "Adjust Balance"
+msgstr "调整余额"
+
+#: includes/class-woo-wallet-admin.php:287
+msgid "Enter Amount"
+msgstr "输入充值金额"
+
+#: includes/class-woo-wallet-admin.php:376
+msgid "An error occurred please try again"
+msgstr "出现错误，请重试"
+
+#: includes/class-woo-wallet-settings.php:219
+msgid "Enter maximum cashback amount"
+msgstr "输入最大返现金额"
+
+#: includes/class-woo-wallet-settings.php:218
+msgid "Maximum Cashback Amount"
+msgstr "最大返现金额"
+
+#: includes/class-woo-wallet-admin.php:299
+msgid "Select payment type"
+msgstr "选择支付类型"
+
+#: includes/class-woo-wallet-settings.php:370
+msgid "Mini wallet display location"
+msgstr "迷您钱包展示位置"
+
+#: includes/class-woo-wallet-admin.php:566
+msgid "If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr "如果您喜欢 %1$s 请给我们一个 %2$s 好评。非常感谢!"
+
+#: includes/class-woo-wallet-admin.php:566
+msgid "Thanks :)"
+msgstr "谢谢  :)"
+
+#: includes/class-woo-wallet-admin.php:575
+msgid "Thank you for using WooCommerce Wallet."
+msgstr "感谢使用 WooCommerce 钱包。"
+
+#: includes/class-woo-wallet-frontend.php:576
+#: includes/class-woo-wallet-frontend.php:598
+msgid " Cashback"
+msgstr " 返现"
+
+#: includes/class-woo-wallet-wallet.php:139
+msgid "Wallet credit through cashback by applying coupon"
+msgstr "通过应用优惠券兑现钱包余额"
+
+#: includes/class-woo-wallet-admin.php:537
+msgid "Apply as cashback"
+msgstr "作为返现"
+
+#: includes/class-woo-wallet-admin.php:538
+msgid "Check this box if the coupon should apply as cashback."
+msgstr "如果优惠券作为返现，请选中此框。"
+
+#: includes/class-woo-wallet-admin.php:255
+msgid "Search Users"
+msgstr "搜索用户"
+
+#: includes/class-woo-wallet-settings.php:135
+msgid "Auto deduct wallet balance for partial payment"
+msgstr "自动扣除钱包余额用于部分支付"
+
+#: includes/class-woo-wallet-settings.php:136
+msgid "If a purchase requires more balance than you have in your wallet, then if checked the wallet balance will be deduct first and the rest of the amount will need to be paid."
+msgstr "如果支付金额大于钱包余额，将先扣除钱包余额，然后使用其他网关支付剩余金额。"
+
+#: includes/class-woo-wallet-settings.php:336
+msgid "Rechargeable Product Tax status"
+msgstr "可充值商品税务状态"
+
+#: includes/class-woo-wallet-settings.php:337
+#: includes/class-woo-wallet-settings.php:348
+msgid "Define whether or not the rechargeable Product is taxable."
+msgstr "定义可充值商品是否应纳税。"
+
+#: includes/class-woo-wallet-settings.php:340
+msgid "Taxable"
+msgstr "应纳税"
+
+#: includes/class-woo-wallet-settings.php:341
+msgctxt "Tax status"
+msgid "None"
+msgstr "暂无"
+
+#: includes/class-woo-wallet-settings.php:351
+msgid "Choose a tax class for rechargeable product. Tax classes are used to apply different tax rates specific to certain types of product."
+msgstr "选择充值产品的税收类别，税收类别用于对特定类型的产品应用不同的税率。"
+
+#: includes/class-woo-wallet-settings.php:347
+msgid "Rechargeable Product Tax class"
+msgstr "可充值商品税收类别"
+
+#: includes/class-woo-wallet.php:224
+msgid "View Wallet settings"
+msgstr "查看钱包设置"
+
+#: includes/class-woo-wallet-payment-method.php:98
+msgid " | Current Balance: <strong>%s</strong>"
+msgstr " | 当前余额：<strong>%s</strong>"
+
+#: includes/class-woo-wallet-payment-method.php:173
+msgid "Insufficient funds in customer wallet"
+msgstr "客户钱包余额不足"
+
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp-gateway.php:48
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp-gateway.php:29
+msgid "New transaction has been initiated"
+msgstr "新的交易已开始"
+
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp-gateway.php:42
+msgid "Invalid payment method"
+msgstr "支付方式有误"
+
+#: templates/wc-endpoint-wallet.php:35
+msgid "Transactions"
+msgstr "交易记录"
+
+#: templates/wc-endpoint-wallet.php:25
+msgid "Wallet topup"
+msgstr "钱包充值"
+
+#: templates/wc-endpoint-wallet.php:119
+msgid "No transactions found"
+msgstr "没有找到交易记录"
+
+#: includes/class-woo-wallet-payment-method.php:58
+#: includes/actions/class-woo-wallet-action-daily-visits.php:27
+#: includes/actions/class-woo-wallet-action-referrals.php:32
+#: includes/actions/class-woo-wallet-action-new-registration.php:26
+#: includes/actions/class-woo-wallet-action-product-review.php:27
+#: includes/emails/class-woo-wallet-email-new-transaction.php:125
+msgid "Enable/Disable"
+msgstr "启用/禁用"
+
+#: includes/class-woo-wallet-admin.php:284
+#: includes/actions/class-woo-wallet-action-daily-visits.php:33
+#: includes/actions/class-woo-wallet-action-referrals.php:44
+#: includes/actions/class-woo-wallet-action-referrals.php:75
+#: includes/actions/class-woo-wallet-action-new-registration.php:32
+#: includes/actions/class-woo-wallet-action-product-review.php:33
+#: includes/admin/class-woo-wallet-balance-details.php:183
+#: includes/admin/class-woo-wallet-transaction-details.php:31
+#: templates/wc-endpoint-wallet.php:86
+msgid "Amount"
+msgstr "金额"
+
+#: includes/class-woo-wallet-admin.php:174
+#: includes/class-woo-wallet-admin.php:304
+#: includes/class-woo-wallet-payment-method.php:72
+#: includes/actions/class-woo-wallet-action-daily-visits.php:49
+#: includes/actions/class-woo-wallet-action-referrals.php:62
+#: includes/actions/class-woo-wallet-action-referrals.php:93
+#: includes/actions/class-woo-wallet-action-new-registration.php:39
+#: includes/actions/class-woo-wallet-action-product-review.php:40
+#: includes/admin/class-woo-wallet-balance-details.php:184
+msgid "Description"
+msgstr "描述"
+
+#: includes/class-woo-wallet-frontend.php:148
+#: includes/admin/class-woo-wallet-balance-details.php:22
+#: includes/admin/class-woo-wallet-transaction-details.php:28
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin/class-woo-wallet-balance-details.php:23
+msgid "Username"
+msgstr "用户名"
+
+#: includes/admin/class-woo-wallet-balance-details.php:24
+#: includes/admin/class-woo-wallet-transaction-details.php:29
+msgid "Name"
+msgstr "名称"
+
+#: includes/admin/class-woo-wallet-balance-details.php:25
+msgid "Email"
+msgstr "邮箱"
+
+#: includes/admin/class-woo-wallet-balance-details.php:26
+msgid "Remaining balance"
+msgstr "余额"
+
+#: includes/class-woo-wallet-admin.php:128
+#: includes/admin/class-woo-wallet-balance-details.php:27
+msgid "Actions"
+msgstr "操作"
+
+#: includes/class-woo-wallet-admin.php:291
+#: includes/admin/class-woo-wallet-transaction-details.php:30
+msgid "Type"
+msgstr "类型"
+
+#: includes/class-woo-wallet-frontend.php:151
+#: includes/admin/class-woo-wallet-transaction-details.php:32
+msgid "Details"
+msgstr "详情"
+
+#: includes/class-woo-wallet-frontend.php:152
+#: includes/admin/class-woo-wallet-transaction-details.php:33
+msgid "Date"
+msgstr "日期"
+
+#: includes/class-woo-wallet-admin.php:293
+#: includes/class-woo-wallet-frontend.php:149
+#: includes/admin/class-woo-wallet-balance-details.php:305
+#: includes/admin/class-woo-wallet-transaction-details.php:106
+msgid "Credit"
+msgstr "充值"
+
+#: includes/class-woo-wallet-admin.php:293
+#: includes/class-woo-wallet-frontend.php:150
+#: includes/admin/class-woo-wallet-balance-details.php:306
+#: includes/admin/class-woo-wallet-transaction-details.php:106
+msgid "Debit"
+msgstr "扣除"
+
+#: includes/class-woo-wallet-admin.php:251
+msgid "Users wallet details"
+msgstr "用户钱包详情"
+
+#: includes/class-woo-wallet-admin.php:276
+#: includes/class-woo-wallet-admin.php:330
+msgid "Current wallet balance: "
+msgstr "当前钱包余额: "
+
+#: includes/class-woo-wallet-admin.php:307
+msgid "Enter Description"
+msgstr "输入描述"
+
+#: includes/class-woo-wallet-admin.php:329
+msgid "Transaction details"
+msgstr "交易详情"
+
+#: includes/class-woo-wallet-admin.php:379
+msgid "Please enter amount"
+msgstr "请输入金额"
+
+#: includes/class-woo-wallet-admin.php:419
+#: includes/class-woo-wallet-admin.php:520
+msgid "Cashback"
+msgstr "提现"
+
+#: includes/class-woo-wallet-settings.php:196
+#: includes/class-woo-wallet-admin.php:438
+#: includes/class-woo-wallet-admin.php:479
+#: includes/class-woo-wallet-admin.php:628
+#: includes/class-woo-wallet-admin.php:649
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:213
+msgid "Cashback type"
+msgstr "返现类型"
+
+#: includes/class-woo-wallet-settings.php:197
+#: includes/class-woo-wallet-admin.php:439
+msgid "Select cashback type percentage or fixed"
+msgstr "按照比例收取还是固定金额"
+
+#: includes/class-woo-wallet-settings.php:158
+#: includes/class-woo-wallet-settings.php:199
+#: includes/class-woo-wallet-settings.php:241
+#: includes/class-woo-wallet-admin.php:440
+#: includes/class-woo-wallet-admin.php:480
+#: includes/class-woo-wallet-admin.php:630
+#: includes/class-woo-wallet-admin.php:652
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:216
+msgid "Percentage"
+msgstr "百分比"
+
+#: includes/class-woo-wallet-settings.php:158
+#: includes/class-woo-wallet-settings.php:199
+#: includes/class-woo-wallet-settings.php:241
+#: includes/class-woo-wallet-admin.php:440
+#: includes/class-woo-wallet-admin.php:480
+#: includes/class-woo-wallet-admin.php:631
+#: includes/class-woo-wallet-admin.php:653
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:217
+msgid "Fixed"
+msgstr "固定金额"
+
+#: includes/class-woo-wallet-settings.php:204
+#: includes/class-woo-wallet-admin.php:448
+#: includes/class-woo-wallet-admin.php:493
+#: includes/class-woo-wallet-admin.php:635
+#: includes/class-woo-wallet-admin.php:658
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:223
+msgid "Cashback Amount"
+msgstr "返现金额"
+
+#: includes/class-woo-wallet-settings.php:205
+#: includes/class-woo-wallet-admin.php:449
+msgid "Enter cashback amount"
+msgstr "输入返现金额"
+
+#: includes/class-woo-wallet-frontend.php:501
+msgid "Via wallet"
+msgstr "来自钱包"
+
+#: includes/class-woo-wallet-admin.php:566
+msgid "WooCommerce Wallet"
+msgstr "WooCommerce 钱包"
+
+#: includes/class-woo-wallet-admin.php:589
+#: includes/class-woo-wallet-admin.php:687
+#: includes/class-woo-wallet-frontend.php:120
+#: includes/class-woo-wallet-frontend.php:205
+#: templates/wc-endpoint-wallet.php:44
+msgid "My Wallet"
+msgstr "我的钱包"
+
+#: includes/class-woo-wallet-ajax.php:90
+msgid "Invalid refund amount"
+msgstr "退款金额错误"
+
+#: includes/class-woo-wallet-payment-method.php:153
+#: includes/class-woo-wallet-ajax.php:120
+msgid "Refund not credited to customer"
+msgstr "退款未充值金额给用户"
+
+#: includes/class-woo-wallet-frontend.php:206
+msgid "Account details"
+msgstr "账户详情"
+
+#: includes/class-woo-wallet-frontend.php:207
+msgid "Logout"
+msgstr "退出"
+
+#: includes/class-woo-wallet-frontend.php:436
+msgid "You can not add another product while your cart contains with wallet rechargeable product."
+msgstr "当购物车中包含钱包充值产品时，您不能添加其他产品。"
+
+#: includes/class-woo-wallet-payment-method.php:47
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp-gateway.php:24
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp.php:36
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp.php:41
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:55
+msgid "Wallet"
+msgstr "钱包"
+
+#: includes/class-woo-wallet-payment-method.php:48
+msgid "Have your customers pay with wallet."
+msgstr "允许客户使用钱包付款。"
+
+#: includes/class-woo-wallet-payment-method.php:59
+msgid "Enable wallet payments"
+msgstr "输入钱包支付"
+
+#: includes/class-woo-wallet-payment-method.php:68
+msgid "Wallet payment"
+msgstr "钱包支付"
+
+#: includes/class-woo-wallet-payment-method.php:74
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "客户在结账时会看到的付款方式描述。"
+
+#: includes/class-woo-wallet-payment-method.php:75
+#: includes/class-woo-wallet-payment-method.php:82
+msgid "Pay with wallet."
+msgstr "使用钱包支付。"
+
+#: includes/class-woo-wallet-payment-method.php:79
+msgid "Instructions"
+msgstr "说明"
+
+#: includes/class-woo-wallet-settings-api.php:396
+#: includes/class-woo-wallet-settings-api.php:415
+msgid "Choose File"
+msgstr "选择文件"
+
+#: includes/class-woo-wallet-settings.php:30
+#: includes/class-woo-wallet-settings.php:267 includes/class-woo-wallet.php:224
+msgid "Settings"
+msgstr "设置"
+
+#: includes/class-woo-wallet-settings.php:81
+msgid "General"
+msgstr "通用"
+
+#: includes/class-woo-wallet-settings.php:103
+msgid "Rechargeable Product Title"
+msgstr "充值商品标题"
+
+#: includes/class-woo-wallet-settings.php:104
+msgid "Enter wallet rechargeable product title"
+msgstr "输入充值商品标题"
+
+#: includes/class-woo-wallet-settings.php:172
+msgid "Cashback Reward Program"
+msgstr "现金返还奖励计划"
+
+#: includes/class-woo-wallet-settings.php:188
+msgid "Cashback Rule"
+msgstr "返现规则"
+
+#: includes/class-woo-wallet-settings.php:191
+msgid "Cart wise"
+msgstr "根据购物车金额"
+
+#: includes/class-woo-wallet-settings.php:191
+msgid "Product wise"
+msgstr "根据产品"
+
+#: includes/class-woo-wallet-settings.php:232
+msgid "Payment gateway charge"
+msgstr "充值的支付网关"
+
+#: includes/class-woo-wallet-settings.php:238
+msgid "Charge type"
+msgstr "充值类型"
+
+#: includes/class-woo-wallet-settings.php:285
+#: includes/class-woo-wallet-settings.php:311
+msgid "(no title)"
+msgstr "(无标题)"
+
+#: includes/class-woo-wallet-settings.php:290
+msgid "Enter gateway charge amount for "
+msgstr "网关收费金额 "
+
+#: includes/class-woo-wallet-settings.php:316
+msgid "Allow this gateway for recharge wallet"
+msgstr "允许使用此网关为钱包充值"
+
+#: includes/class-woo-wallet.php:354
+msgid "WooCommerce Wallet plugin requires <a href=\"https://wordpress.org/plugins/woocommerce/\">WooCommerce</a> plugins to be active!"
+msgstr "WooCommerce 钱包插件需要 <a href=\"https://wordpress.org/plugins/woocommerce/\">WooCommerce</a>插件激活才能使用！"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:16
+msgid "New wallet transaction"
+msgstr "新钱包交易"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:17
+msgid "New wallet transaction emails are sent to user when a wallet transaction received."
+msgstr "当收到钱包交易时，会向用户发送新的钱包交易电子邮件。"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:47
+msgid "Thank you for using wallet"
+msgstr "感谢使用 WooCommerce 钱包"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:127
+msgid "Enable this email notification"
+msgstr "启用邮件通知"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:131
+msgid "Subject"
+msgstr "主题"
+
+#. translators: %s: list of placeholders
+#: includes/emails/class-woo-wallet-email-new-transaction.php:135
+#: includes/emails/class-woo-wallet-email-new-transaction.php:144
+msgid "Available placeholders: %s"
+msgstr "可用占位符: %s"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:140
+msgid "Email heading"
+msgstr "邮件标题"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:149
+msgid "Email type"
+msgstr "邮件类型"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:151
+msgid "Choose which format of email to send."
+msgstr "选择邮件格式。"
+
+#: includes/class-woo-wallet-frontend.php:750 templates/mini-wallet.php:21
+msgid "Current wallet balance"
+msgstr "当前余额"
+
+#: includes/class-woo-wallet-widgets.php:53 templates/wc-endpoint-wallet.php:65
+msgid "Enter amount"
+msgstr "请输入金额"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/woo-wallet/"
+msgstr "https://wordpress.org/plugins/woo-wallet/"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:37
+msgid "Your {site_title} wallet transaction from {transaction_date}"
+msgstr "您在 {site_title}， {transaction_date} 之后的钱包交易， "
+
+#: includes/class-woo-wallet-settings.php:156
+msgid "Select transfer charge type percentage or fixed"
+msgstr "选择转账手续费类型，按百分比还是固定金额"
+
+#: includes/class-woo-wallet-settings.php:239
+msgid "Select gateway charge type percentage or fixed"
+msgstr "按照比例收取还是固定费用收费"
+
+#: includes/class-woo-wallet-settings.php:233
+msgid "Charge customer when they add balance to their wallet?"
+msgstr "用户向钱包充值时，收取手续费"
+
+#: includes/class-woo-wallet-settings.php:189
+msgid "Select Cashback Rule cart or product wise"
+msgstr "选择返现规则，根据购物车或者产品"
+
+#: includes/class-woo-wallet-payment-method.php:81
+msgid "Instructions that will be added to the thank you page."
+msgstr "感谢页面的说明。"
+
+#: includes/class-woo-wallet-payment-method.php:65
+msgid "Title"
+msgstr "标题"
+
+#: templates/woo-wallet-partial-payment.php:32
+#: templates/woo-wallet-partial-payment.php:33
+msgid "Pay by wallet"
+msgstr "通过钱包支付"
+
+#: includes/class-woo-wallet-widgets.php:54 templates/wc-endpoint-wallet.php:72
+msgid "Add"
+msgstr "充值"
+
+#: templates/emails/user-new-transaction.php:29
+#: templates/emails/plain/user-new-transaction.php:27
+msgid "has been debited from your wallet."
+msgstr "已从您的钱包扣除。"
+
+#: includes/class-woo-wallet-settings.php:173
+msgid "Run cashback reward program on your store"
+msgstr "在您的商店运行现金返还奖励计划"

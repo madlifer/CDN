@@ -1,0 +1,132 @@
+.onepage-pagination {
+	position: fixed;
+	top: 50%;
+	right: 30px;
+	@include translate3d(0, -50%, 0);
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	z-index: 50;
+	display: none;
+	&.subheader-present {
+		top: calc(50% + 50px);
+	}
+	li {
+		display: block;
+		padding: 4px 0;
+		margin: 0;
+		a {
+			display: block;
+			width: 14px;
+			height: 14px;
+			border-radius: 7px;
+			border: 1px solid transparent;	
+			position: relative;
+			&:hover {
+				border-color: rgba(255,255,255,.3);
+			}
+			&:after {
+				content: '';
+				display: block;
+				width: 6px;
+				height: 6px;
+				background: rgba(255,255,255,.3);
+				border-radius: 3px;
+				position: absolute;
+				top: 3px;
+				left: 3px;
+			}
+			&.active {
+				border-color: rgba(255,255,255,1);
+				&:hover {
+					border-color: rgba(255,255,255,1);
+				}
+				&:after {
+					background: rgba(255,255,255,1);	
+				}
+			}
+		}
+	}
+	@include min-break($break-medium) {
+		display: block;	
+	}
+}
+body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper {
+  position: inherit;
+}
+body.snap {
+	.subheader {
+		position: relative;
+		z-index: 30;
+	}
+	.header {
+		z-index: 15;
+	}
+}
+[role="main"] {
+	.snap & {
+		display: block;
+		position: static;
+		width: 100%;
+		height: auto;
+		overflow-x: visible !important;
+		min-height: 200px;
+		opacity: 0;
+		
+		@include min-break($break-small) {
+			display: table;
+			height: 100vh;
+			position: relative;
+			min-height: 100vh;
+		}
+		@include max-break($break-small) {
+			@include transform(none !important);
+			height: auto !important;
+		}
+	
+		&.loaded {
+			opacity: 1;
+		}
+		&>.row {
+			left: auto;
+			top: auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			max-width: 100%;
+	        width: 100%;
+			height: auto;
+			margin: 0;
+			padding: 40px 15px;
+			@extend .linear-quick-transition;
+			
+			@include min-break($break-small) {
+				padding: 0;
+				height: 100vh;
+			}
+			@include max-break($break-small) {
+				position: static !important;
+			}
+			&.section {
+				z-index: 5;
+				&>.row {
+					width: 100%;
+					height: auto;
+					margin: 0;
+				  padding: 0;
+					@include min-break($break-small) {
+						padding: 0 35px;
+						
+						&.no-padding {
+							padding: 0;
+						}
+					}
+				}
+				
+				&.active {
+					z-index: 20;
+				}
+			}
+		}
+	}
+}
